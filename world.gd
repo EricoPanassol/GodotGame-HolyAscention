@@ -32,8 +32,7 @@ func onPlayerDeath(gameover: bool):
 # 9. Power up
 # 10. Troca de fase - (Procurar um sprite maneiro)
 
-
-func _on_change_phase_body_entered(body:Node2D):
+func _on_to_phase_2_body_entered(body: Node2D):
 	if body.name == "Monk":
-		get_tree().change_scene_to_file("res://world.tscn");
-
+		print('ENZO');
+	pass # Replace with function body.
