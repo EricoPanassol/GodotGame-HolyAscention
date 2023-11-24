@@ -1,10 +1,10 @@
-res://monk.tscn
 res://GUI/heart_gui.gd
+res://world.tscn
+res://world.gd
+res://monk.tscn
 res://EnemySkull.tscn
 res://main.tscn
 res://gameover.tscn
-res://world.tscn
-res://world.gd
 res://Level2.tscn
+res://level3.tscn
 res://main.gd
-res://Player/monk.gd

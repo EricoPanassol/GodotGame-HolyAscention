@@ -12,12 +12,12 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
 	onPlayerDeath(player.gameover);
+	#_on_to_phase_2_body_entered(player);
 	
 func onPlayerDeath(gameover: bool):
 	# TODO if gameover: get_tree().change_scene_to_file(cena do game over);
 	if gameover: 
 		get_tree().change_scene_to_file("res://gameover.tscn");
-		print("muda cena")
 
 
 # -= TODO =-
@@ -34,5 +34,4 @@ func onPlayerDeath(gameover: bool):
 
 func _on_to_phase_2_body_entered(body: Node2D):
 	if body.name == "Monk":
-		print('ENZO');
-	pass # Replace with function body.
+		get_tree().change_scene_to_file("res://Level2.tscn");
