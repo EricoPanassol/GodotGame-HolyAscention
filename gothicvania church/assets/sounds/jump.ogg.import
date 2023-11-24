@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bavaxl8hnph3w"
+path="res://.godot/imported/jump.ogg-94295ea4225f5c6c57ecc40dea10114a.oggvorbisstr"
+
+[deps]
+
+source_file="res://gothicvania church/assets/sounds/jump.ogg"
+dest_files=["res://.godot/imported/jump.ogg-94295ea4225f5c6c57ecc40dea10114a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

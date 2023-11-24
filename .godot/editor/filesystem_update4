@@ -1,0 +1,11 @@
+res://monk.tscn
+res://GUI/heart_gui.gd
+res://EnemySkull.tscn
+res://main.tscn
+res://gameover.tscn
+res://GUI/hearts_container.gd
+res://world.gd
+res://EnemySkull.gd
+res://Player/monk.gd
+res://AnimatedSprite2D.gd
+res://CharacterBody2D.gd

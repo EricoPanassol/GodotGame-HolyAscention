@@ -1,0 +1,15 @@
+CollisionShape2D
+Area2D
+ColorRect
+Button
+Label
+Node2D
+CanvasLayer
+Sprite2D
+Panel
+HBoxContainer
+Polygon2D
+AnimatedSprite2D
+CharacterBody2D
+AnimationPlayer
+Camera2D

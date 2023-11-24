@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://3hdnhqhfgwlg"]
+
+[ext_resource type="Script" path="res://gameover.gd" id="1_4nkkh"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_4nkkh")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 300.0
+offset_top = 85.0
+offset_right = 832.0
+offset_bottom = 324.0
+text = "game dober"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayAgain" type="Button" parent="."]
+offset_left = 476.0
+offset_top = 323.0
+offset_right = 654.0
+offset_bottom = 402.0
+text = "Play Again"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 476.0
+offset_top = 444.0
+offset_right = 656.0
+offset_bottom = 532.0
+text = "Quit
+"
+
+[connection signal="pressed" from="PlayAgain" to="." method="_on_play_again_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

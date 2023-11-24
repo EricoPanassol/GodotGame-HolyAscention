@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://buqnqbqpt4jpb"
+path="res://.godot/imported/ockaie_temple.ogg-fa43b2ee551fd99494705750bc7ebb59.oggvorbisstr"
+
+[deps]
+
+source_file="res://gothicvania church/assets/sounds/ockaie_temple.ogg"
+dest_files=["res://.godot/imported/ockaie_temple.ogg-fa43b2ee551fd99494705750bc7ebb59.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

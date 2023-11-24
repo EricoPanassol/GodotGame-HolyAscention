@@ -1,0 +1,269 @@
+[gd_scene load_steps=42 format=3 uid="uid://cedmdk5u06xmy"]
+
+[ext_resource type="Texture2D" uid="uid://b7ua3umbcwf4j" path="res://gothicvania church files/SPRITES/player/sprites/crouch1.png" id="1_mg8oi"]
+[ext_resource type="Script" path="res://Player/monk.gd" id="1_ql2hn"]
+[ext_resource type="Texture2D" uid="uid://ruh4h7lu0syh" path="res://gothicvania church files/SPRITES/player/sprites/crouch2.png" id="2_rdk3f"]
+[ext_resource type="Texture2D" uid="uid://dhngyj2a0e2n0" path="res://gothicvania church files/SPRITES/player/sprites/crouch-kick1.png" id="3_51r5l"]
+[ext_resource type="Texture2D" uid="uid://cel2mkunap141" path="res://gothicvania church files/SPRITES/player/sprites/crouch-kick2.png" id="4_gfupg"]
+[ext_resource type="Texture2D" uid="uid://c1l1djlg3wi04" path="res://gothicvania church files/SPRITES/player/sprites/crouch-kick3.png" id="5_o15f5"]
+[ext_resource type="Texture2D" uid="uid://bv7eu6fdmdhw8" path="res://gothicvania church files/SPRITES/player/sprites/crouch-kick4.png" id="6_ogrlw"]
+[ext_resource type="Texture2D" uid="uid://m20cucikk07r" path="res://gothicvania church files/SPRITES/player/sprites/crouch-kick5.png" id="7_gexrf"]
+[ext_resource type="Texture2D" uid="uid://b754hh5b5shbc" path="res://gothicvania church files/SPRITES/player/sprites/fall1.png" id="8_nvvvk"]
+[ext_resource type="Texture2D" uid="uid://dtx5oo560v2vj" path="res://gothicvania church files/SPRITES/player/sprites/fall2.png" id="9_6axvr"]
+[ext_resource type="Texture2D" uid="uid://b5ar8278wsdq7" path="res://gothicvania church files/SPRITES/player/sprites/flying-kick1.png" id="10_se00c"]
+[ext_resource type="Texture2D" uid="uid://18ggfeilanvd" path="res://gothicvania church files/SPRITES/player/sprites/flying-kick2.png" id="11_sj1dj"]
+[ext_resource type="Texture2D" uid="uid://vmbfdsypxki4" path="res://gothicvania church files/SPRITES/player/sprites/hurt1.png" id="12_r8xxh"]
+[ext_resource type="Texture2D" uid="uid://comjk3lkmfg30" path="res://gothicvania church files/SPRITES/player/sprites/hurt2.png" id="13_tpdp2"]
+[ext_resource type="Texture2D" uid="uid://bm8ntr7nxbo6x" path="res://gothicvania church files/SPRITES/player/sprites/idle1.png" id="14_0cbod"]
+[ext_resource type="Texture2D" uid="uid://dx70vydgy8upm" path="res://gothicvania church files/SPRITES/player/sprites/idle2.png" id="15_3m3oy"]
+[ext_resource type="Texture2D" uid="uid://fd6jfppf35p4" path="res://gothicvania church files/SPRITES/player/sprites/idle3.png" id="16_dnlbx"]
+[ext_resource type="Texture2D" uid="uid://bei6wjc2fviki" path="res://gothicvania church files/SPRITES/player/sprites/idle4.png" id="17_2qtv1"]
+[ext_resource type="Texture2D" uid="uid://b6uhie1r4tert" path="res://gothicvania church files/SPRITES/player/sprites/jump1.png" id="18_12oco"]
+[ext_resource type="Texture2D" uid="uid://dt4ufaasuomx7" path="res://gothicvania church files/SPRITES/player/sprites/jump2.png" id="19_jiqxu"]
+[ext_resource type="Texture2D" uid="uid://cjkdoin2eik6r" path="res://gothicvania church files/SPRITES/player/sprites/kick2.png" id="20_lswn4"]
+[ext_resource type="Texture2D" uid="uid://dpla8ognot6gl" path="res://gothicvania church files/SPRITES/player/sprites/kick3.png" id="21_thke4"]
+[ext_resource type="Texture2D" uid="uid://cuhq10quk6f3h" path="res://gothicvania church files/SPRITES/player/sprites/kick4.png" id="22_wfwjc"]
+[ext_resource type="Texture2D" uid="uid://djko8o0bqkf8r" path="res://gothicvania church files/SPRITES/player/sprites/kick5.png" id="23_pblvg"]
+[ext_resource type="Texture2D" uid="uid://7ldooyscac75" path="res://gothicvania church files/SPRITES/player/sprites/punch1.png" id="24_v3a41"]
+[ext_resource type="Texture2D" uid="uid://cnx5k6y0wndo7" path="res://gothicvania church files/SPRITES/player/sprites/punch2.png" id="25_ctwch"]
+[ext_resource type="Texture2D" uid="uid://dqc4f8408hats" path="res://gothicvania church files/SPRITES/player/sprites/punch3.png" id="26_ddu2q"]
+[ext_resource type="Texture2D" uid="uid://b0a2bcq7g5ryx" path="res://gothicvania church files/SPRITES/player/sprites/punch4.png" id="27_n4lu0"]
+[ext_resource type="Texture2D" uid="uid://016k4f11aos2" path="res://gothicvania church files/SPRITES/player/sprites/punch5.png" id="28_y05rf"]
+[ext_resource type="Texture2D" uid="uid://bsdxpva4rs0wu" path="res://gothicvania church files/SPRITES/player/sprites/punch6.png" id="29_80d2e"]
+[ext_resource type="Texture2D" uid="uid://bjd47ygqufvdm" path="res://gothicvania church files/SPRITES/player/sprites/walk1.png" id="30_m2gln"]
+[ext_resource type="Texture2D" uid="uid://cj2fk4nrpawm8" path="res://gothicvania church files/SPRITES/player/sprites/walk2.png" id="31_slfjt"]
+[ext_resource type="Texture2D" uid="uid://bb7jmlnhw8odk" path="res://gothicvania church files/SPRITES/player/sprites/walk3.png" id="32_la4u1"]
+[ext_resource type="Texture2D" uid="uid://dh5jauewm3tm8" path="res://gothicvania church files/SPRITES/player/sprites/walk4.png" id="33_82cgb"]
+[ext_resource type="Texture2D" uid="uid://bvsg20e6tdwr4" path="res://gothicvania church files/SPRITES/player/sprites/walk5.png" id="34_ky1wt"]
+[ext_resource type="Texture2D" uid="uid://c6qgduisp7ot" path="res://gothicvania church files/SPRITES/player/sprites/walk6.png" id="35_pmf53"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j0il2"]
+size = Vector2(35, 60.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ou7wt"]
+size = Vector2(39, 63)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j3r0x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_mg8oi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_rdk3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_51r5l")
+}],
+"loop": false,
+"name": &"crouch",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_51r5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_gfupg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_o15f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ogrlw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_gexrf")
+}],
+"loop": true,
+"name": &"crouchKick",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_nvvvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6axvr")
+}],
+"loop": false,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_se00c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_sj1dj")
+}],
+"loop": false,
+"name": &"flyingKick",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_r8xxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_tpdp2")
+}],
+"loop": false,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_0cbod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_3m3oy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_dnlbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_2qtv1")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_12oco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_jiqxu")
+}],
+"loop": false,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_lswn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_thke4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_wfwjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_pblvg")
+}],
+"loop": false,
+"name": &"kick",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_v3a41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ctwch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ddu2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_n4lu0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_y05rf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_80d2e")
+}],
+"loop": false,
+"name": &"punch",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_m2gln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_slfjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_la4u1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_82cgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_ky1wt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_pmf53")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_whbmd"]
+size = Vector2(174.95, 53.0381)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hxxk0"]
+size = Vector2(126.924, 38.0905)
+
+[node name="Monk" type="CharacterBody2D"]
+script = ExtResource("1_ql2hn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0, 3.375)
+shape = SubResource("RectangleShape2D_j0il2")
+
+[node name="PlayerHitBox" type="Area2D" parent="."]
+collision_layer = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHitBox"]
+position = Vector2(0.5, 4)
+shape = SubResource("RectangleShape2D_ou7wt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2.109, -4)
+scale = Vector2(1.70466, 1.265)
+sprite_frames = SubResource("SpriteFrames_j3r0x")
+animation = &"idle"
+
+[node name="KickHit" type="Area2D" parent="AnimatedSprite2D"]
+position = Vector2(-1.8661, 5.66442)
+scale = Vector2(0.34537, 0.625327)
+collision_layer = 3
+collision_mask = 3
+
+[node name="KickHitBox" type="CollisionShape2D" parent="AnimatedSprite2D/KickHit"]
+position = Vector2(77.4063, 47.8572)
+shape = SubResource("RectangleShape2D_whbmd")
+disabled = true
+
+[node name="PunchHit" type="Area2D" parent="AnimatedSprite2D"]
+position = Vector2(-1.17536, 3.16311)
+scale = Vector2(0.587682, 0.790776)
+collision_layer = 3
+collision_mask = 3
+
+[node name="PunchHitBox" type="CollisionShape2D" parent="AnimatedSprite2D/PunchHit"]
+position = Vector2(58.7889, 2.99767)
+scale = Vector2(0.587682, 0.790776)
+shape = SubResource("RectangleShape2D_hxxk0")
+disabled = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 12)
+offset = Vector2(0, -50.655)
+zoom = Vector2(1.325, 1.685)
+limit_left = 250
+limit_right = 1025
+limit_bottom = 4000
+limit_smoothed = true
+rotation_smoothing_enabled = true
+
+[connection signal="body_entered" from="PlayerHitBox" to="." method="_on_player_hit_box_body_entered"]
+[connection signal="body_entered" from="AnimatedSprite2D/KickHit" to="." method="_on_punch_hit_body_entered"]
+[connection signal="body_entered" from="AnimatedSprite2D/PunchHit" to="." method="_on_punch_hit_body_entered"]

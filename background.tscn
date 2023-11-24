@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwao048aqm1e6"]
+
+[ext_resource type="Texture2D" uid="uid://ctatuxhlfhrc2" path="res://gothicvania-cemetery-files/PNG/Environment/hell.png" id="2_0ccjt"]
+
+[node name="BG" type="ParallaxBackground"]
+
+[node name="BackgroundLayer" type="ParallaxLayer" parent="."]
+
+[node name="Hell2" type="Sprite2D" parent="BackgroundLayer"]
+position = Vector2(1293.52, -1291.5)
+scale = Vector2(2.87245, 8.39498)
+texture = ExtResource("2_0ccjt")
+
+[node name="Hell" type="Sprite2D" parent="BackgroundLayer"]
+position = Vector2(1293.56, -8286.18)
+rotation = -3.14159
+scale = Vector2(2.87247, 9.26895)
+texture = ExtResource("2_0ccjt")

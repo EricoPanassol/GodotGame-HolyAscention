@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bybajxd3trp1"
+path="res://.godot/imported/kill.ogg-4f1a58d2d2ccdd77bd78385c34f5da10.oggvorbisstr"
+
+[deps]
+
+source_file="res://gothicvania church/assets/sounds/kill.ogg"
+dest_files=["res://.godot/imported/kill.ogg-4f1a58d2d2ccdd77bd78385c34f5da10.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
