@@ -397,7 +397,7 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_5icvy")
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p873e"]
-radius = 29.0
+radius = 32.0
 height = 98.0
 
 [node name="World" type="Node2D"]

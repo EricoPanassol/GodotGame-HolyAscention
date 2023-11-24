@@ -72,11 +72,11 @@ func _physics_process(delta):
 		animation.play("fall");
 	
 	# HANDLE ATTACK
-	if Input.is_action_just_pressed("left_click"):
+	if Input.is_action_just_pressed("left_click") or Input.is_action_just_pressed("char_j"):
 		if is_on_floor():
 			$AnimatedSprite2D/PunchHit/PunchHitBox.disabled = false;
 			animation.play("punch");
-			blocked = true;
+			#blocked = true;
 		elif Input.is_action_pressed("char_s"):
 			$AnimatedSprite2D/KickHit/KickHitBox.disabled = false;
 			animation.play("kick");

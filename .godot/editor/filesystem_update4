@@ -7,3 +7,4 @@ res://world.tscn
 res://world.gd
 res://Level2.tscn
 res://main.gd
+res://Player/monk.gd
