@@ -1,890 +1,891 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700862094
-background.tscn::PackedScene::6317892184346850607::1700858391::0::1::::<><>::uid://ctatuxhlfhrc2
-CharacterBody2D.gd::GDScript::-1::1700858391::0::1::::<>CharacterBody2D<>::
-EnemySkull.gd::GDScript::-1::1700858391::0::1::::EnemySkull<>CharacterBody2D<>::
-EnemySkull.tscn::PackedScene::7441511243793592271::1700861730::0::1::::<><>::res://EnemySkull.gd<>uid://mxm8vnn1e2x7::::res://2D explosions/Type 1/1.png<>uid://csqxkeuuoxgin::::res://2D explosions/Type 1/2.png<>uid://br4wqa25yolg7::::res://2D explosions/Type 1/3.png<>uid://cuuqa4s3tgkxl::::res://2D explosions/Type 1/4.png<>uid://mnqvp28m3h41::::res://2D explosions/Type 1/5.png<>uid://8yuthpmbjgt6::::res://2D explosions/Type 1/6.png<>uid://c6vdmihmeh0qg::::res://2D explosions/Type 1/7.png<>uid://bhdt6v4x211kk::::res://2D explosions/Type 1/8.png<>uid://cih2r4u2rv8hd::::res://gothicvania patreon collection/Fire-Skull-Files/PNG/fire-skull.png
-gameover.gd::GDScript::-1::1700858391::0::1::::<>Node2D<>::
-gameover.tscn::PackedScene::1979944025147701172::1700861730::0::1::::<><>::res://gameover.gd
-Level2.tscn::PackedScene::2439651960751085443::1700861782::0::1::::<><>::res://world.gd<>uid://b44rjig3lmnx5::::res://gothicvania church/assets/environment/tileset.png<>uid://cwao048aqm1e6::::res://background.tscn<>uid://cedmdk5u06xmy::::res://monk.tscn<>uid://deayurbal51w2::::res://EnemySkull.tscn<>uid://t332wq1hexbb::::res://GUI/hearts_container.tscn<>uid://c7e3ekxdxnod1::::res://soul.tscn
-main.gd::GDScript::-1::1700860290::0::1::::<>Node2D<>::
-main.tscn::PackedScene::751013833794133389::1700861730::0::1::::<><>::res://main.gd
-monk.tscn::PackedScene::5060524409016419476::1700861730::0::1::::<><>::uid://b7ua3umbcwf4j::::res://gothicvania church files/SPRITES/player/sprites/crouch1.png<>res://Player/monk.gd<>uid://ruh4h7lu0syh::::res://gothicvania church files/SPRITES/player/sprites/crouch2.png<>uid://dhngyj2a0e2n0::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick1.png<>uid://cel2mkunap141::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick2.png<>uid://c1l1djlg3wi04::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick3.png<>uid://bv7eu6fdmdhw8::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick4.png<>uid://m20cucikk07r::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick5.png<>uid://b754hh5b5shbc::::res://gothicvania church files/SPRITES/player/sprites/fall1.png<>uid://dtx5oo560v2vj::::res://gothicvania church files/SPRITES/player/sprites/fall2.png<>uid://b5ar8278wsdq7::::res://gothicvania church files/SPRITES/player/sprites/flying-kick1.png<>uid://18ggfeilanvd::::res://gothicvania church files/SPRITES/player/sprites/flying-kick2.png<>uid://vmbfdsypxki4::::res://gothicvania church files/SPRITES/player/sprites/hurt1.png<>uid://comjk3lkmfg30::::res://gothicvania church files/SPRITES/player/sprites/hurt2.png<>uid://bm8ntr7nxbo6x::::res://gothicvania church files/SPRITES/player/sprites/idle1.png<>uid://dx70vydgy8upm::::res://gothicvania church files/SPRITES/player/sprites/idle2.png<>uid://fd6jfppf35p4::::res://gothicvania church files/SPRITES/player/sprites/idle3.png<>uid://bei6wjc2fviki::::res://gothicvania church files/SPRITES/player/sprites/idle4.png<>uid://b6uhie1r4tert::::res://gothicvania church files/SPRITES/player/sprites/jump1.png<>uid://dt4ufaasuomx7::::res://gothicvania church files/SPRITES/player/sprites/jump2.png<>uid://cjkdoin2eik6r::::res://gothicvania church files/SPRITES/player/sprites/kick2.png<>uid://dpla8ognot6gl::::res://gothicvania church files/SPRITES/player/sprites/kick3.png<>uid://cuhq10quk6f3h::::res://gothicvania church files/SPRITES/player/sprites/kick4.png<>uid://djko8o0bqkf8r::::res://gothicvania church files/SPRITES/player/sprites/kick5.png<>uid://7ldooyscac75::::res://gothicvania church files/SPRITES/player/sprites/punch1.png<>uid://cnx5k6y0wndo7::::res://gothicvania church files/SPRITES/player/sprites/punch2.png<>uid://dqc4f8408hats::::res://gothicvania church files/SPRITES/player/sprites/punch3.png<>uid://b0a2bcq7g5ryx::::res://gothicvania church files/SPRITES/player/sprites/punch4.png<>uid://016k4f11aos2::::res://gothicvania church files/SPRITES/player/sprites/punch5.png<>uid://bsdxpva4rs0wu::::res://gothicvania church files/SPRITES/player/sprites/punch6.png<>uid://bjd47ygqufvdm::::res://gothicvania church files/SPRITES/player/sprites/walk1.png<>uid://cj2fk4nrpawm8::::res://gothicvania church files/SPRITES/player/sprites/walk2.png<>uid://bb7jmlnhw8odk::::res://gothicvania church files/SPRITES/player/sprites/walk3.png<>uid://dh5jauewm3tm8::::res://gothicvania church files/SPRITES/player/sprites/walk4.png<>uid://bvsg20e6tdwr4::::res://gothicvania church files/SPRITES/player/sprites/walk5.png<>uid://c6qgduisp7ot::::res://gothicvania church files/SPRITES/player/sprites/walk6.png
-README.md::TextFile::-1::1700862007::0::1::::<><>::
-soul.gd::GDScript::-1::1700858391::0::1::::Soul<>CharacterBody2D<>::
-soul.tscn::PackedScene::7028849654724130352::1700858391::0::1::::<><>::uid://ju2tfl12nr40
-world.gd::GDScript::-1::1700861899::0::1::::<>Node2D<>::
-world.tscn::PackedScene::8053252831962048027::1700861730::0::1::::<><>::res://world.gd<>uid://b44rjig3lmnx5::::res://gothicvania church/assets/environment/tileset.png<>uid://cwao048aqm1e6::::res://background.tscn<>uid://deayurbal51w2::::res://EnemySkull.tscn<>uid://cedmdk5u06xmy::::res://monk.tscn<>uid://c7e3ekxdxnod1::::res://soul.tscn<>uid://t332wq1hexbb::::res://GUI/hearts_container.tscn
-::res://2D explosions/::1700858391
-read me.txt::TextFile::-1::1700858391::0::1::::<><>::
-::res://2D explosions/other packs/::1700858391
-2.png::CompressedTexture2D::1699336138013534659::1700858391::1700858391::1::::<><>::
-3.png::CompressedTexture2D::3551520172059054761::1700858391::1700858391::1::::<><>::
-4.png::CompressedTexture2D::5195792041863600439::1700858391::1700858391::1::::<><>::
-5.png::CompressedTexture2D::8011425405373409455::1700858391::1700858391::1::::<><>::
-6.png::CompressedTexture2D::5905196430361653082::1700858391::1700858391::1::::<><>::
-7.png::CompressedTexture2D::5082043265518168148::1700858391::1700858391::1::::<><>::
-pack 1.png::CompressedTexture2D::1091936134185375031::1700858391::1700858391::1::::<><>::
-read me.txt::TextFile::-1::1700858391::0::1::::<><>::
-::res://2D explosions/Type 1/::1700858391
-1.png::CompressedTexture2D::890535470810227514::1700858391::1700858391::1::::<><>::
-2.png::CompressedTexture2D::6070685187626236365::1700858391::1700858391::1::::<><>::
-3.png::CompressedTexture2D::3640862370056142856::1700858391::1700858391::1::::<><>::
-4.png::CompressedTexture2D::6218878819393772833::1700858391::1700858391::1::::<><>::
-5.png::CompressedTexture2D::870112839091917968::1700858391::1700858391::1::::<><>::
-6.png::CompressedTexture2D::2367025567474465621::1700858391::1700858391::1::::<><>::
-7.png::CompressedTexture2D::6992251465056926530::1700858391::1700858391::1::::<><>::
-8.png::CompressedTexture2D::2885145853766950886::1700858391::1700858391::1::::<><>::
-::res://2D explosions/Type 2/::1700858391
-1.png::CompressedTexture2D::1684411791781237377::1700858391::1700858391::1::::<><>::
-2.png::CompressedTexture2D::6705349855603113684::1700858391::1700858391::1::::<><>::
-3.png::CompressedTexture2D::5888038703270143044::1700858391::1700858391::1::::<><>::
-4.png::CompressedTexture2D::7876587117921445260::1700858391::1700858391::1::::<><>::
-::res://2D explosions/Type 3/::1700858391
-1.png::CompressedTexture2D::4580817725498886605::1700858391::1700858391::1::::<><>::
-2.png::CompressedTexture2D::3902624604591673581::1700858391::1700858391::1::::<><>::
-3.png::CompressedTexture2D::3410035821550062194::1700858391::1700858391::1::::<><>::
-4.png::CompressedTexture2D::95320740077136620::1700858391::1700858391::1::::<><>::
-5.png::CompressedTexture2D::3135386255457225409::1700858391::1700858391::1::::<><>::
-6.png::CompressedTexture2D::1774306864927433565::1700858391::1700858391::1::::<><>::
-::res://caves/::1700858391
-background1.png::CompressedTexture2D::2723274884489326679::1700858391::1700858391::1::::<><>::
-background2.png::CompressedTexture2D::1791020137548322539::1700858391::1700858391::1::::<><>::
-background3.png::CompressedTexture2D::6613827171761791906::1700858391::1700858391::1::::<><>::
-background4a.png::CompressedTexture2D::2548314200445109607::1700858391::1700858391::1::::<><>::
-background4b.png::CompressedTexture2D::8285453229340525706::1700858391::1700858391::1::::<><>::
-mainlev_build.png::CompressedTexture2D::3222209087907348247::1700858391::1700858391::1::::<><>::
-props1.png::CompressedTexture2D::7473091345375856515::1700858391::1700858391::1::::<><>::
-props2.png::CompressedTexture2D::8767278625261297114::1700858391::1700858391::1::::<><>::
-::res://caves/PSD/::1700858391
-::res://Effects Pack 12/::1700858391
-::res://Effects Pack 12/1/::1700858391
-1.png::CompressedTexture2D::1317781107142720426::1700858391::1700858391::1::::<><>::
-2.png::CompressedTexture2D::3867842981578319059::1700858391::1700858391::1::::<><>::
-3.png::CompressedTexture2D::2329959133533877438::1700858391::1700858391::1::::<><>::
-4.png::CompressedTexture2D::6751016801073864763::1700858391::1700858391::1::::<><>::
-5.png::CompressedTexture2D::678873746099125708::1700858391::1700858391::1::::<><>::
-6.png::CompressedTexture2D::6827066160310160937::1700858391::1700858391::1::::<><>::
-7.png::CompressedTexture2D::7719889383558667942::1700858391::1700858391::1::::<><>::
-8.png::CompressedTexture2D::1467128610951093752::1700858391::1700858391::1::::<><>::
-9.png::CompressedTexture2D::3263801156380599419::1700858391::1700858391::1::::<><>::
-10.png::CompressedTexture2D::3558233004051060482::1700858391::1700858391::1::::<><>::
-11.png::CompressedTexture2D::8409868093168880417::1700858391::1700858391::1::::<><>::
-12.png::CompressedTexture2D::148971543100838599::1700858391::1700858391::1::::<><>::
-13.png::CompressedTexture2D::4514145028788580791::1700858391::1700858391::1::::<><>::
-14.png::CompressedTexture2D::2573221184218578150::1700858391::1700858391::1::::<><>::
-15.png::CompressedTexture2D::1866384634937079438::1700858391::1700858391::1::::<><>::
-16.png::CompressedTexture2D::3126086179108039677::1700858391::1700858391::1::::<><>::
-17.png::CompressedTexture2D::5222478914357695289::1700858391::1700858391::1::::<><>::
-18.png::CompressedTexture2D::62958007386696972::1700858391::1700858391::1::::<><>::
-19.png::CompressedTexture2D::6070270154343505941::1700858391::1700858391::1::::<><>::
-20.png::CompressedTexture2D::7288249274551359719::1700858391::1700858391::1::::<><>::
-21.png::CompressedTexture2D::8692477203465531648::1700858391::1700858391::1::::<><>::
-22.png::CompressedTexture2D::3251160521055739727::1700858391::1700858391::1::::<><>::
-23.png::CompressedTexture2D::3423600861516641788::1700858391::1700858391::1::::<><>::
-24.png::CompressedTexture2D::3360275704154762231::1700858391::1700858391::1::::<><>::
-25.png::CompressedTexture2D::5861619272681539982::1700858391::1700858391::1::::<><>::
-26.png::CompressedTexture2D::6266954479669538380::1700858391::1700858391::1::::<><>::
-27.png::CompressedTexture2D::2172006793789372983::1700858391::1700858391::1::::<><>::
-28.png::CompressedTexture2D::2479301778362370113::1700858391::1700858391::1::::<><>::
-29.png::CompressedTexture2D::2258117387904900346::1700858391::1700858391::1::::<><>::
-30.png::CompressedTexture2D::6152503408521407893::1700858391::1700858391::1::::<><>::
-::res://Effects Pack 12/2/::1700858391
-1.png::CompressedTexture2D::674660717539907535::1700858391::1700858391::1::::<><>::
-2.png::CompressedTexture2D::2383351308105811756::1700858391::1700858391::1::::<><>::
-3.png::CompressedTexture2D::750691164360624044::1700858391::1700858391::1::::<><>::
-4.png::CompressedTexture2D::6717743792266196044::1700858391::1700858391::1::::<><>::
-5.png::CompressedTexture2D::33781909951148693::1700858391::1700858391::1::::<><>::
-6.png::CompressedTexture2D::1406042389219953529::1700858391::1700858391::1::::<><>::
-7.png::CompressedTexture2D::8512197007464360804::1700858391::1700858391::1::::<><>::
-8.png::CompressedTexture2D::2792651601300142915::1700858391::1700858391::1::::<><>::
-9.png::CompressedTexture2D::6010219135589413488::1700858391::1700858391::1::::<><>::
-10.png::CompressedTexture2D::51253869641154171::1700858391::1700858391::1::::<><>::
-11.png::CompressedTexture2D::5828960480199365642::1700858391::1700858391::1::::<><>::
-12.png::CompressedTexture2D::1103664948749473914::1700858391::1700858391::1::::<><>::
-13.png::CompressedTexture2D::6910117418977532469::1700858391::1700858391::1::::<><>::
-14.png::CompressedTexture2D::3476701192734477008::1700858391::1700858391::1::::<><>::
-15.png::CompressedTexture2D::8459033688107391080::1700858391::1700858391::1::::<><>::
-16.png::CompressedTexture2D::2290985042517419075::1700858391::1700858391::1::::<><>::
-17.png::CompressedTexture2D::1256774322903886075::1700858391::1700858391::1::::<><>::
-18.png::CompressedTexture2D::473731246879499668::1700858391::1700858391::1::::<><>::
-19.png::CompressedTexture2D::6301049536276648102::1700858391::1700858391::1::::<><>::
-20.png::CompressedTexture2D::7897691319938632410::1700858391::1700858391::1::::<><>::
-21.png::CompressedTexture2D::4070682973562206966::1700858391::1700858391::1::::<><>::
-22.png::CompressedTexture2D::3886835499382897773::1700858391::1700858391::1::::<><>::
-23.png::CompressedTexture2D::5978949380769745779::1700858391::1700858391::1::::<><>::
-24.png::CompressedTexture2D::6007092366204923448::1700858391::1700858391::1::::<><>::
-25.png::CompressedTexture2D::8537340639195089472::1700858391::1700858391::1::::<><>::
-26.png::CompressedTexture2D::2483934825445989404::1700858391::1700858391::1::::<><>::
-27.png::CompressedTexture2D::562121856643066649::1700858391::1700858391::1::::<><>::
-28.png::CompressedTexture2D::6890897454026514339::1700858391::1700858391::1::::<><>::
-29.png::CompressedTexture2D::4805998975689425487::1700858391::1700858391::1::::<><>::
-30.png::CompressedTexture2D::5684028222981681565::1700858391::1700858391::1::::<><>::
-::res://Effects Pack 12/3/::1700858391
-1.png::CompressedTexture2D::8169458365612524064::1700858391::1700858391::1::::<><>::
-2.png::CompressedTexture2D::8302275606801397845::1700858391::1700858391::1::::<><>::
-3.png::CompressedTexture2D::2067798132827131588::1700858391::1700858391::1::::<><>::
-4.png::CompressedTexture2D::8565616846796216653::1700858391::1700858391::1::::<><>::
-5.png::CompressedTexture2D::3242563036358166824::1700858391::1700858391::1::::<><>::
-6.png::CompressedTexture2D::5985073915717595531::1700858391::1700858391::1::::<><>::
-7.png::CompressedTexture2D::7594137491993892541::1700858391::1700858391::1::::<><>::
-8.png::CompressedTexture2D::7330359473645191212::1700858391::1700858391::1::::<><>::
-9.png::CompressedTexture2D::6539874449527665931::1700858391::1700858391::1::::<><>::
-10.png::CompressedTexture2D::1179337459603693054::1700858391::1700858391::1::::<><>::
-11.png::CompressedTexture2D::8692670139415340449::1700858391::1700858391::1::::<><>::
-12.png::CompressedTexture2D::6098236368264424955::1700858391::1700858391::1::::<><>::
-13.png::CompressedTexture2D::8229298926925692373::1700858391::1700858391::1::::<><>::
-14.png::CompressedTexture2D::148153441957743610::1700858391::1700858391::1::::<><>::
-15.png::CompressedTexture2D::2451239095485221559::1700858391::1700858391::1::::<><>::
-16.png::CompressedTexture2D::1152357857458713452::1700858391::1700858391::1::::<><>::
-17.png::CompressedTexture2D::5024104563743966480::1700858391::1700858391::1::::<><>::
-18.png::CompressedTexture2D::7091690068981396761::1700858391::1700858391::1::::<><>::
-19.png::CompressedTexture2D::6389766091026626194::1700858391::1700858391::1::::<><>::
-20.png::CompressedTexture2D::5914820245108436679::1700858391::1700858391::1::::<><>::
-21.png::CompressedTexture2D::5640057986659691186::1700858391::1700858391::1::::<><>::
-22.png::CompressedTexture2D::5225590413062623604::1700858391::1700858391::1::::<><>::
-23.png::CompressedTexture2D::3207045469518919246::1700858391::1700858391::1::::<><>::
-24.png::CompressedTexture2D::4471539087086526165::1700858391::1700858391::1::::<><>::
-25.png::CompressedTexture2D::7298938163092908886::1700858391::1700858391::1::::<><>::
-26.png::CompressedTexture2D::3109391750073463081::1700858391::1700858391::1::::<><>::
-27.png::CompressedTexture2D::2461899722029046194::1700858391::1700858391::1::::<><>::
-28.png::CompressedTexture2D::882310422130422792::1700858391::1700858391::1::::<><>::
-29.png::CompressedTexture2D::2719011751766518637::1700858391::1700858391::1::::<><>::
-30.png::CompressedTexture2D::2504929960910785264::1700858391::1700858391::1::::<><>::
-::res://gothicvania church/::1700858391
-::res://gothicvania church/assets/::1700858391
-::res://gothicvania church/assets/atlas/::1700858391
-atlas.json::JSON::-1::1700858391::0::1::::<><>::
-atlas.png::CompressedTexture2D::2916756834946843579::1700858391::1700858391::1::::<><>::
-::res://gothicvania church/assets/environment/::1700858391
-background.png::CompressedTexture2D::7086706491004973150::1700858391::1700858391::1::::<><>::
-columns.png::CompressedTexture2D::4707209746936414135::1700858391::1700858391::1::::<><>::
-tileset.png::CompressedTexture2D::4482812795828954352::1700858391::1700858391::1::::<><>::
-::res://gothicvania church/assets/images/::1700858391
-credits-text.png::CompressedTexture2D::4182373141978395115::1700858391::1700858391::1::::<><>::
-game-over.png::CompressedTexture2D::4126041341394362457::1700858391::1700858391::1::::<><>::
-instructions.png::CompressedTexture2D::2283169934110460884::1700858391::1700858391::1::::<><>::
-press-enter-text.png::CompressedTexture2D::710006126740717124::1700858391::1700858391::1::::<><>::
-title-screen.png::CompressedTexture2D::25828852728811792::1700858391::1700858391::1::::<><>::
-::res://gothicvania church/assets/map/::1700858391
-map.json::JSON::-1::1700858391::0::1::::<><>::
-::res://gothicvania church/assets/sounds/::1700858391
-attack.ogg::AudioStreamOggVorbis::7076048356757167120::1700858391::1700858391::1::::<><>::
-hurt.ogg::AudioStreamOggVorbis::5924515264939117810::1700858391::1700858391::1::::<><>::
-jump.ogg::AudioStreamOggVorbis::2429814318859585234::1700858391::1700858391::1::::<><>::
-kill.ogg::AudioStreamOggVorbis::119795135143376980::1700858391::1700858391::1::::<><>::
-Music-license.txt::TextFile::-1::1700858391::0::1::::<><>::
-ockaie_temple.ogg::AudioStreamOggVorbis::3824045572075440795::1700858391::1700858391::1::::<><>::
-::res://gothicvania church/entities/::1700858391
-::res://gothicvania church files/::1700858391
-public-license.txt::TextFile::-1::1700858391::0::1::::<><>::
-::res://gothicvania church files/ENVIRONMENT/::1700858391
-backgrounds.png::CompressedTexture2D::7648528504266734369::1700858391::1700858391::1::::<><>::
-column.png::CompressedTexture2D::7780727118584101747::1700858391::1700858391::1::::<><>::
-tileset.png::CompressedTexture2D::6234467278753721709::1700858391::1700858391::1::::<><>::
-title-screen.png::CompressedTexture2D::4219337846723673499::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/PSD/::1700858391
-::res://gothicvania church files/SPRITES/::1700858391
-::res://gothicvania church files/SPRITES/angel/::1700858391
-::res://gothicvania church files/SPRITES/angel/preview/::1700858391
-::res://gothicvania church files/SPRITES/angel/sprites/::1700858391
-::res://gothicvania church files/SPRITES/angel/sprites/angel-attack/::1700858391
-angel-attack-1.png::CompressedTexture2D::7139735987673531034::1700858391::1700858391::1::::<><>::
-angel-attack-2.png::CompressedTexture2D::337915601920895124::1700858391::1700858391::1::::<><>::
-angel-attack-3.png::CompressedTexture2D::4815383938348227367::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/angel/sprites/idle/::1700858391
-angel1.png::CompressedTexture2D::6450854308889936681::1700858391::1700858391::1::::<><>::
-angel2.png::CompressedTexture2D::1666986356000705213::1700858391::1700858391::1::::<><>::
-angel3.png::CompressedTexture2D::4559349857032525039::1700858391::1700858391::1::::<><>::
-angel4.png::CompressedTexture2D::407277456437671761::1700858391::1700858391::1::::<><>::
-angel5.png::CompressedTexture2D::8344017885298886827::1700858391::1700858391::1::::<><>::
-angel6.png::CompressedTexture2D::9086559002979893122::1700858391::1700858391::1::::<><>::
-angel7.png::CompressedTexture2D::1935040996991401991::1700858391::1700858391::1::::<><>::
-angel8.png::CompressedTexture2D::5141028178968165811::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/angel/spritesheet/::1700858391
-angel.json::JSON::-1::1700858391::0::1::::<><>::
-angel.png::CompressedTexture2D::6559854856314363770::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/burning-ghoul/::1700858391
-::res://gothicvania church files/SPRITES/burning-ghoul/sprites/::1700858391
-::res://gothicvania church files/SPRITES/burning-ghoul/sprites/v1/::1700858391
-burning-ghoul-1.png::CompressedTexture2D::8619160158467520529::1700858391::1700858391::1::::<><>::
-burning-ghoul-2.png::CompressedTexture2D::8167140513544131477::1700858391::1700858391::1::::<><>::
-burning-ghoul-3.png::CompressedTexture2D::3907979774749905666::1700858391::1700858391::1::::<><>::
-burning-ghoul-4.png::CompressedTexture2D::4062653695337352855::1700858391::1700858391::1::::<><>::
-burning-ghoul-5.png::CompressedTexture2D::3936558261482853324::1700858391::1700858391::1::::<><>::
-burning-ghoul-6.png::CompressedTexture2D::7071638293059410012::1700858391::1700858391::1::::<><>::
-burning-ghoul-7.png::CompressedTexture2D::4088786905484890330::1700858391::1700858391::1::::<><>::
-burning-ghoul-8.png::CompressedTexture2D::6302807057512666031::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/burning-ghoul/sprites/v2/::1700858391
-burning-ghoul1.png::CompressedTexture2D::1659751707100687196::1700858391::1700858391::1::::<><>::
-burning-ghoul2.png::CompressedTexture2D::2962592500368398682::1700858391::1700858391::1::::<><>::
-burning-ghoul3.png::CompressedTexture2D::3873845515598933410::1700858391::1700858391::1::::<><>::
-burning-ghoul4.png::CompressedTexture2D::8346446150811849034::1700858391::1700858391::1::::<><>::
-burning-ghoul5.png::CompressedTexture2D::678298139852365760::1700858391::1700858391::1::::<><>::
-burning-ghoul6.png::CompressedTexture2D::8793795170882309749::1700858391::1700858391::1::::<><>::
-burning-ghoul7.png::CompressedTexture2D::1783827361918190185::1700858391::1700858391::1::::<><>::
-burning-ghoul8.png::CompressedTexture2D::5676862782631939019::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/burning-ghoul/spritesheet/::1700858391
-::res://gothicvania church files/SPRITES/burning-ghoul/spritesheet/v1/::1700858391
-burning-ghoul.json::JSON::-1::1700858391::0::1::::<><>::
-burning-ghoul.png::CompressedTexture2D::1304827578646699910::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/burning-ghoul/spritesheet/v2/::1700858391
-burning-ghoul.json::JSON::-1::1700858391::0::1::::<><>::
-burning-ghoul.png::CompressedTexture2D::1339231303248019100::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/fx/::1700858391
-::res://gothicvania church files/SPRITES/fx/enemy-death/::1700858391
-::res://gothicvania church files/SPRITES/fx/enemy-death/enemy-death-sprites/::1700858391
-enemy-death1.png::CompressedTexture2D::3745289024209000308::1700858391::1700858391::1::::<><>::
-enemy-death2.png::CompressedTexture2D::2674543394167455691::1700858391::1700858391::1::::<><>::
-enemy-death3.png::CompressedTexture2D::1901569999058073986::1700858391::1700858391::1::::<><>::
-enemy-death4.png::CompressedTexture2D::5518704458331890889::1700858391::1700858391::1::::<><>::
-enemy-death5.png::CompressedTexture2D::4568406617794941812::1700858391::1700858391::1::::<><>::
-enemy-death6.png::CompressedTexture2D::141630856108230326::1700858391::1700858391::1::::<><>::
-enemy-death7.png::CompressedTexture2D::1852628025323063081::1700858391::1700858391::1::::<><>::
-enemy-death8.png::CompressedTexture2D::5538862120296125810::1700858391::1700858391::1::::<><>::
-enemy-death9.png::CompressedTexture2D::7761137488218353176::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/fx/enemy-death/enemy-death-spritesheet/::1700858391
-enemy-death.json::JSON::-1::1700858391::0::1::::<><>::
-enemy-death.png::CompressedTexture2D::6229850482291266477::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/fx/fireball/::1700858391
-::res://gothicvania church files/SPRITES/fx/fireball/fireball-sprites/::1700858391
-fireball1.png::CompressedTexture2D::634763649201587947::1700858391::1700858391::1::::<><>::
-fireball2.png::CompressedTexture2D::4030577196272388949::1700858391::1700858391::1::::<><>::
-fireball3.png::CompressedTexture2D::6198973673821179039::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/fx/fireball/fireball-spritesheet/::1700858391
-fireball.json::JSON::-1::1700858391::0::1::::<><>::
-fireball.png::CompressedTexture2D::2650837336160507562::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/player/::1700858391
-::res://gothicvania church files/SPRITES/player/previews/::1700858391
-::res://gothicvania church files/SPRITES/player/sprites/::1700858391
-crouch1.png::CompressedTexture2D::4673802306474305383::1700858391::1700858391::1::::<><>::
-crouch2.png::CompressedTexture2D::1234975121525066215::1700858391::1700858391::1::::<><>::
-crouch-kick1.png::CompressedTexture2D::7677828542812091055::1700858391::1700858391::1::::<><>::
-crouch-kick2.png::CompressedTexture2D::5077966242285413364::1700858391::1700858391::1::::<><>::
-crouch-kick3.png::CompressedTexture2D::6622043946477249023::1700858391::1700858391::1::::<><>::
-crouch-kick4.png::CompressedTexture2D::3926726708171203361::1700858391::1700858391::1::::<><>::
-crouch-kick5.png::CompressedTexture2D::899526873356855461::1700858391::1700858391::1::::<><>::
-fall1.png::CompressedTexture2D::4696168720173316944::1700858391::1700858391::1::::<><>::
-fall2.png::CompressedTexture2D::8542178062556754135::1700858391::1700858391::1::::<><>::
-flying-kick1.png::CompressedTexture2D::4493178582003639132::1700858391::1700858391::1::::<><>::
-flying-kick2.png::CompressedTexture2D::1893409686367009969::1700858391::1700858391::1::::<><>::
-hurt1.png::CompressedTexture2D::1498808081897629309::1700858391::1700858391::1::::<><>::
-hurt2.png::CompressedTexture2D::5780823510358567249::1700858391::1700858391::1::::<><>::
-idle1.png::CompressedTexture2D::3297635467175765893::1700858391::1700858391::1::::<><>::
-idle2.png::CompressedTexture2D::8841222234875947234::1700858391::1700858391::1::::<><>::
-idle3.png::CompressedTexture2D::359035936851411427::1700858391::1700858391::1::::<><>::
-idle4.png::CompressedTexture2D::2685613071553410132::1700858391::1700858391::1::::<><>::
-jump1.png::CompressedTexture2D::4604001947924128237::1700858391::1700858391::1::::<><>::
-jump2.png::CompressedTexture2D::8553940304739635022::1700858391::1700858391::1::::<><>::
-kick1.png::CompressedTexture2D::5134274668644553101::1700858391::1700858391::1::::<><>::
-kick2.png::CompressedTexture2D::5425392331263746679::1700858391::1700858391::1::::<><>::
-kick3.png::CompressedTexture2D::8234862537349188587::1700858391::1700858391::1::::<><>::
-kick4.png::CompressedTexture2D::6192088125674980203::1700858391::1700858391::1::::<><>::
-kick5.png::CompressedTexture2D::7812515164474013623::1700858391::1700858391::1::::<><>::
-punch1.png::CompressedTexture2D::2268959077027383494::1700858391::1700858391::1::::<><>::
-punch2.png::CompressedTexture2D::5734618057211001200::1700858391::1700858391::1::::<><>::
-punch3.png::CompressedTexture2D::8288183805805836096::1700858391::1700858391::1::::<><>::
-punch4.png::CompressedTexture2D::4142783050469232219::1700858391::1700858391::1::::<><>::
-punch5.png::CompressedTexture2D::1810296529388431959::1700858391::1700858391::1::::<><>::
-punch6.png::CompressedTexture2D::3657437384513500580::1700858391::1700858391::1::::<><>::
-walk1.png::CompressedTexture2D::3026132618475900334::1700858391::1700858391::1::::<><>::
-walk2.png::CompressedTexture2D::5460602146443073505::1700858391::1700858391::1::::<><>::
-walk3.png::CompressedTexture2D::2523238096110872880::1700858391::1700858391::1::::<><>::
-walk4.png::CompressedTexture2D::7713062799765180133::1700858391::1700858391::1::::<><>::
-walk5.png::CompressedTexture2D::3897959038753891807::1700858391::1700858391::1::::<><>::
-walk6.png::CompressedTexture2D::205355773153913863::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/player/spritesheet/::1700858391
-player.json::JSON::-1::1700858391::0::1::::<><>::
-player.png::CompressedTexture2D::7217940360996673631::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/wizard/::1700858391
-::res://gothicvania church files/SPRITES/wizard/fire-sprites/::1700858391
-fire1.png::CompressedTexture2D::6861572454979225009::1700858391::1700858391::1::::<><>::
-fire2.png::CompressedTexture2D::6005331360104800065::1700858391::1700858391::1::::<><>::
-fire3.png::CompressedTexture2D::1240554112651930147::1700858391::1700858391::1::::<><>::
-fire4.png::CompressedTexture2D::6725053192403407615::1700858391::1700858391::1::::<><>::
-fire5.png::CompressedTexture2D::4554498119988926557::1700858391::1700858391::1::::<><>::
-fire6.png::CompressedTexture2D::8500736490378551187::1700858391::1700858391::1::::<><>::
-fire7.png::CompressedTexture2D::7227602053555007625::1700858391::1700858391::1::::<><>::
-fire8.png::CompressedTexture2D::6666024115048519256::1700858391::1700858391::1::::<><>::
-fire9.png::CompressedTexture2D::3757843041728735979::1700858391::1700858391::1::::<><>::
-fire10.png::CompressedTexture2D::6023646960602286805::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/wizard/idle-sprites/::1700858391
-wizard-idle-1.png::CompressedTexture2D::5799064185387379002::1700858391::1700858391::1::::<><>::
-wizard-idle-2.png::CompressedTexture2D::2131519202225489129::1700858391::1700858391::1::::<><>::
-wizard-idle-3.png::CompressedTexture2D::467565838948189174::1700858391::1700858391::1::::<><>::
-wizard-idle-4.png::CompressedTexture2D::2008524236992387141::1700858391::1700858391::1::::<><>::
-wizard-idle-5.png::CompressedTexture2D::7196173330582518854::1700858391::1700858391::1::::<><>::
-::res://gothicvania church files/SPRITES/wizard/previews/::1700858391
-::res://gothicvania church files/SPRITES/wizard/spritesheet/::1700858391
-wizard.json::JSON::-1::1700858391::0::1::::<><>::
-wizard.png::CompressedTexture2D::7128250299998976989::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/::1700858391
-public-license.txt::TextFile::-1::1700858391::0::1::::<><>::
-::res://gothicvania patreon collection/demon-Files/::1700858391
-::res://gothicvania patreon collection/demon-Files/GIFS/::1700858391
-::res://gothicvania patreon collection/demon-Files/PNG/::1700858391
-breath-fire.png::CompressedTexture2D::4347924286686548711::1700858391::1700858391::1::::<><>::
-breath.png::CompressedTexture2D::8380273614693439137::1700858391::1700858391::1::::<><>::
-demon-attack-no-breath.png::CompressedTexture2D::5973422765741738006::1700858391::1700858391::1::::<><>::
-demon-attack.png::CompressedTexture2D::8082022626966553486::1700858391::1700858391::1::::<><>::
-demon-idle.png::CompressedTexture2D::2639155687522958380::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/demon-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Fire-Skull-Files/::1700858391
-::res://gothicvania patreon collection/Fire-Skull-Files/GIF/::1700858391
-::res://gothicvania patreon collection/Fire-Skull-Files/PNG/::1700858391
-fire-skull-no-fire.png::CompressedTexture2D::5580479260906548690::1700858391::1700858391::1::::<><>::
-fire-skull.png::CompressedTexture2D::5350474033393537805::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Fire-Skull-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Ghost-Files/::1700858391
-::res://gothicvania patreon collection/Ghost-Files/GIFS/::1700858391
-::res://gothicvania patreon collection/Ghost-Files/PNG/::1700858391
-ghost-appears.png::CompressedTexture2D::1687382588234124877::1700858391::1700858391::1::::<><>::
-ghost-idle.png::CompressedTexture2D::1724673595921375802::1700858391::1700858391::1::::<><>::
-ghost-shriek.png::CompressedTexture2D::1204706379913567334::1700858391::1700858391::1::::<><>::
-ghost-vanish.png::CompressedTexture2D::6475021656860010630::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Ghost-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Gothic-Castle-Files/::1700858391
-::res://gothicvania patreon collection/Gothic-Castle-Files/PNG/::1700858391
-gothic-castle-preview.png::CompressedTexture2D::5916550457107841715::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-Castle-Files/PNG/layers/::1700858391
-gothic-castle-background.png::CompressedTexture2D::2147581343842773716::1700858391::1700858391::1::::<><>::
-gothic-castle-tileset.png::CompressedTexture2D::6487907287031210482::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-Castle-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-Files/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-Files/GIFS/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-Files/PNG/::1700858391
-gothic-hero-attack.png::CompressedTexture2D::2247564775818392658::1700858391::1700858391::1::::<><>::
-gothic-hero-idle.png::CompressedTexture2D::8754657596986873971::1700858391::1700858391::1::::<><>::
-gothic-hero-jump.png::CompressedTexture2D::3341326077438491608::1700858391::1700858391::1::::<><>::
-gothic-hero-run.png::CompressedTexture2D::1696257182022816135::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-hero-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/GIFS/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/::1700858391
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/climb/::1700858391
-gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::5393412267593982973::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::4054286750168201803::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::4554112710930859161::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0003_Layer-4.png::CompressedTexture2D::7356784726049529921::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0004_Layer-5.png::CompressedTexture2D::9153429439597572833::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0005_Layer-6.png::CompressedTexture2D::6053974818960259282::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0006_Layer-7.png::CompressedTexture2D::987179124738346801::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/crouch/::1700858391
-gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::3924806980283372176::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::2583876277438018130::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::1649737774196858107::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/crouch-slash/::1700858391
-gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::5849586882689249371::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::9002379382371179503::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::3799158179400400004::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0003_Layer-4.png::CompressedTexture2D::1297510093919731447::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/hurt/::1700858391
-gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::7809876006374864636::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::982138707465433840::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::7805014043654825480::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/jump-attack/::1700858391
-gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::8723864228120335763::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::766160409914307448::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::1857322693353819991::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0003_Layer-4.png::CompressedTexture2D::7824929837382980315::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0004_Layer-5.png::CompressedTexture2D::515137876095593254::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch-slash_0005_Layer-6.png::CompressedTexture2D::3966528140564970831::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/spritesheets/::1700858391
-gothic-hero-crouch-slash.png::CompressedTexture2D::8619507220131476391::1700858391::1700858391::1::::<><>::
-gothic-hero-crouch.png::CompressedTexture2D::6579782177440022638::1700858391::1700858391::1::::<><>::
-gothic-hero-hurt.png::CompressedTexture2D::6318068069623233836::1700858391::1700858391::1::::<><>::
-gothic-hero-jump-attack.png::CompressedTexture2D::5075710379698740354::1700858391::1700858391::1::::<><>::
-gothic-hero-jump-climb.png::CompressedTexture2D::2548923613785947424::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-hero-p2-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Gothic-Horror-Files/::1700858391
-::res://gothicvania patreon collection/Gothic-Horror-Files/PNG/::1700858391
-PREVIEW-gothic-horror.png::CompressedTexture2D::4247789765692416709::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-Horror-Files/PNG/layers/::1700858391
-clouds.png::CompressedTexture2D::437592930541179648::1700858391::1700858391::1::::<><>::
-tiles.png::CompressedTexture2D::7227657123404249691::1700858391::1700858391::1::::<><>::
-town.png::CompressedTexture2D::985339438437101261::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Gothic-Horror-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Hell-Beast-Files/::1700858391
-::res://gothicvania patreon collection/Hell-Beast-Files/GIF/::1700858391
-::res://gothicvania patreon collection/Hell-Beast-Files/GIF/with-stroke/::1700858391
-::res://gothicvania patreon collection/Hell-Beast-Files/GIF/without-stroke/::1700858391
-::res://gothicvania patreon collection/Hell-Beast-Files/PNG/::1700858391
-fire-ball.png::CompressedTexture2D::8488534213898165658::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Hell-Beast-Files/PNG/with-stroke/::1700858391
-hell-beast-breath.png::CompressedTexture2D::897906862499993334::1700858391::1700858391::1::::<><>::
-hell-beast-burn.png::CompressedTexture2D::4509899393876181149::1700858391::1700858391::1::::<><>::
-hell-beast-idle.png::CompressedTexture2D::8737834896059751468::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Hell-Beast-Files/PNG/without-stroke/::1700858391
-hell-beast-breath.png::CompressedTexture2D::8531665846298239855::1700858391::1700858391::1::::<><>::
-hell-beast-burn.png::CompressedTexture2D::3794001030614604930::1700858391::1700858391::1::::<><>::
-hell-beast-idle.png::CompressedTexture2D::7896692126340830332::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Hell-Beast-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Hell-Hound-Files/::1700858391
-get-more.jpg::CompressedTexture2D::3432188817701330252::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Hell-Hound-Files/GIFS/::1700858391
-::res://gothicvania patreon collection/Hell-Hound-Files/PNG/::1700858391
-hell-hound-idle.png::CompressedTexture2D::8086400683199234441::1700858391::1700858391::1::::<><>::
-hell-hound-jump.png::CompressedTexture2D::969483137984294714::1700858391::1700858391::1::::<><>::
-hell-hound-run.png::CompressedTexture2D::3132444460508307172::1700858391::1700858391::1::::<><>::
-hell-hound-walk.png::CompressedTexture2D::5678478668461852163::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Hell-Hound-Files/PSD/::1700858391
-::res://gothicvania patreon collection/night-town-background-files/::1700858391
-night-town-background-preview-LOW-RES.jpg::CompressedTexture2D::9026170855073581558::1700858391::1700858391::1::::<><>::
-night-town-background-previewx1.png::CompressedTexture2D::7199247155969915723::1700858391::1700858391::1::::<><>::
-night-town-background-previewx2.png::CompressedTexture2D::7424801860401792803::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/night-town-background-files/layers/::1700858391
-night-town-background-clouds.png::CompressedTexture2D::228291578820792620::1700858391::1700858391::1::::<><>::
-night-town-background-far-buildings.png::CompressedTexture2D::5727135323532422926::1700858391::1700858391::1::::<><>::
-night-town-background-forest.png::CompressedTexture2D::9094317551023566630::1700858391::1700858391::1::::<><>::
-night-town-background-mountains-lights.png::CompressedTexture2D::5202433733244394742::1700858391::1700858391::1::::<><>::
-night-town-background-mountains.png::CompressedTexture2D::2651062687024686988::1700858391::1700858391::1::::<><>::
-night-town-background-sky.png::CompressedTexture2D::639671979208907994::1700858391::1700858391::1::::<><>::
-night-town-background-town.png::CompressedTexture2D::4677557726439596756::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Nightmare-Files/::1700858391
-::res://gothicvania patreon collection/Nightmare-Files/GIFS/::1700858391
-::res://gothicvania patreon collection/Nightmare-Files/PNG/::1700858391
-nightmare-galloping.png::CompressedTexture2D::224178653081712950::1700858391::1700858391::1::::<><>::
-nightmare-idle.png::CompressedTexture2D::5577060015613464782::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Nightmare-Files/PSD/::1700858391
-::res://gothicvania patreon collection/Old-dark-Castle-tileset-Files/::1700858391
-::res://gothicvania patreon collection/Old-dark-Castle-tileset-Files/PNG/::1700858391
-old-dark-castle-interior-background.png::CompressedTexture2D::2723397606690532802::1700858391::1700858391::1::::<><>::
-old-dark-castle-interior-tileset.png::CompressedTexture2D::9195302883361634940::1700858391::1700858391::1::::<><>::
-preview-old-dark-castle-interior-tileset.png::CompressedTexture2D::1751754730163110183::1700858391::1700858391::1::::<><>::
-::res://gothicvania patreon collection/Old-dark-Castle-tileset-Files/PSD/::1700858391
-::res://gothicvania patreon collection/wolf-runing-cycle/::1700858391
-::res://gothicvania patreon collection/wolf-runing-cycle/previews/::1700858391
-::res://gothicvania patreon collection/wolf-runing-cycle/PSD/::1700858391
-::res://gothicvania patreon collection/wolf-runing-cycle/sprites/::1700858391
-wolf-runing-cycle-skin.png::CompressedTexture2D::8282551713573496252::1700858391::1700858391::1::::<><>::
-wolf-runing-cycle.png::CompressedTexture2D::4159482054016863900::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/::1700858391
-public-license.txt::TextFile::-1::1700858391::0::1::::<><>::
-::res://gothicvania-cemetery-files/demo/::1700858391
-::res://gothicvania-cemetery-files/demo/assets/::1700858391
-::res://gothicvania-cemetery-files/demo/assets/atlas/::1700858391
-atlas-props.json::JSON::-1::1700858391::0::1::::<><>::
-atlas-props.png::CompressedTexture2D::3724580968371603395::1700858391::1700858391::1::::<><>::
-atlas.json::JSON::-1::1700858391::0::1::::<><>::
-atlas.png::CompressedTexture2D::1544176592399356943::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/demo/assets/environment/::1700858391
-bg-graveyard.png::CompressedTexture2D::1147957397593740431::1700858391::1700858391::1::::<><>::
-bg-moon.png::CompressedTexture2D::3455782330469363123::1700858391::1700858391::1::::<><>::
-bg-mountains.png::CompressedTexture2D::4005558615120905053::1700858391::1700858391::1::::<><>::
-objects.png::CompressedTexture2D::8165518164897335091::1700858391::1700858391::1::::<><>::
-tileset.png::CompressedTexture2D::6951337136075142772::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/demo/assets/maps/::1700858391
-map.json::JSON::-1::1700858391::0::1::::<><>::
-::res://gothicvania-cemetery-files/demo/assets/sounds/::1700858391
-attack.ogg::AudioStreamOggVorbis::4886817418554482138::1700858391::1700858391::1::::<><>::
-hurt.ogg::AudioStreamOggVorbis::8493885798083511153::1700858391::1700858391::1::::<><>::
-jump.ogg::AudioStreamOggVorbis::2355388298946905001::1700858391::1700858391::1::::<><>::
-kill.ogg::AudioStreamOggVorbis::7798925340710692595::1700858391::1700858391::1::::<><>::
-rise.ogg::AudioStreamOggVorbis::1858626131060245309::1700858391::1700858391::1::::<><>::
-sci_fi_platformer04_main_loop.ogg::AudioStreamOggVorbis::9086141676555286238::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/demo/assets/sprites/::1700858391
-credits-text.png::CompressedTexture2D::8102481371198234016::1700858391::1700858391::1::::<><>::
-game-over.png::CompressedTexture2D::4490485448919313566::1700858391::1700858391::1::::<><>::
-instructions.png::CompressedTexture2D::7114280891073998618::1700858391::1700858391::1::::<><>::
-loading.png::CompressedTexture2D::2903114181949674315::1700858391::1700858391::1::::<><>::
-press-enter-text.png::CompressedTexture2D::7571651739884565806::1700858391::1700858391::1::::<><>::
-title-screen.png::CompressedTexture2D::4198523907229939621::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/GIFS/::1700858391
-::res://gothicvania-cemetery-files/GIFS/ghost/::1700858391
-::res://gothicvania-cemetery-files/GIFS/hell-gato/::1700858391
-::res://gothicvania-cemetery-files/GIFS/hero/::1700858391
-::res://gothicvania-cemetery-files/GIFS/misc/::1700858391
-::res://gothicvania-cemetery-files/GIFS/skeleton/::1700858391
-::res://gothicvania-cemetery-files/PNG/::1700858391
-::res://gothicvania-cemetery-files/PNG/Environment/::1700858391
-background.png::CompressedTexture2D::7417169458020716157::1700858391::1700858391::1::::<><>::
-graveyard.png::CompressedTexture2D::3529611725989716858::1700858391::1700858391::1::::<><>::
-hell.png::CompressedTexture2D::6107619954606928587::1700858391::1700858391::1::::<><>::
-mountains.png::CompressedTexture2D::154374006199467059::1700858391::1700858391::1::::<><>::
-objects.png::CompressedTexture2D::1911296390719497571::1700858391::1700858391::1::::<><>::
-tileset-sliced.png::CompressedTexture2D::6282068352827381504::1700858391::1700858391::1::::<><>::
-tileset.png::CompressedTexture2D::6945550230141352848::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Environment/sliced-objects/::1700858391
-bush-large.png::CompressedTexture2D::6596811214463693424::1700858391::1700858391::1::::<><>::
-bush-small.png::CompressedTexture2D::4929966316410670355::1700858391::1700858391::1::::<><>::
-statue.png::CompressedTexture2D::8920494306238304481::1700858391::1700858391::1::::<><>::
-stone-1.png::CompressedTexture2D::6778662333964529259::1700858391::1700858391::1::::<><>::
-stone-2.png::CompressedTexture2D::8625515395044649942::1700858391::1700858391::1::::<><>::
-stone-3.png::CompressedTexture2D::4479339475389165086::1700858391::1700858391::1::::<><>::
-stone-4.png::CompressedTexture2D::1213989169720435866::1700858391::1700858391::1::::<><>::
-tree-1.png::CompressedTexture2D::1138513906231485623::1700858391::1700858391::1::::<><>::
-tree-2.png::CompressedTexture2D::7147264836914051856::1700858391::1700858391::1::::<><>::
-tree-3.png::CompressedTexture2D::5364313404755886219::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/::1700858391
-::res://gothicvania-cemetery-files/PNG/Sprites/enemy-death/::1700858391
-enemy-death-1.png::CompressedTexture2D::2572866655354641096::1700858391::1700858391::1::::<><>::
-enemy-death-2.png::CompressedTexture2D::973743194353801904::1700858391::1700858391::1::::<><>::
-enemy-death-3.png::CompressedTexture2D::1052016053254665525::1700858391::1700858391::1::::<><>::
-enemy-death-4.png::CompressedTexture2D::3609717649527965380::1700858391::1700858391::1::::<><>::
-enemy-death-5.png::CompressedTexture2D::828306761238356440::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/ghost/::1700858391
-ghost-1.png::CompressedTexture2D::4900723420399828326::1700858391::1700858391::1::::<><>::
-ghost-2.png::CompressedTexture2D::3959610134866977909::1700858391::1700858391::1::::<><>::
-ghost-3.png::CompressedTexture2D::8163963952165344566::1700858391::1700858391::1::::<><>::
-ghost-4.png::CompressedTexture2D::759970265227266927::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/ghost-halo/::1700858391
-ghost-halo-1.png::CompressedTexture2D::1931711027382675652::1700858391::1700858391::1::::<><>::
-ghost-halo-2.png::CompressedTexture2D::4267093177548412152::1700858391::1700858391::1::::<><>::
-ghost-halo-3.png::CompressedTexture2D::1305556624530282864::1700858391::1700858391::1::::<><>::
-ghost-halo-4.png::CompressedTexture2D::3890827247604806598::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hell-gato/::1700858391
-hell-gato-1.png::CompressedTexture2D::424237941491013705::1700858391::1700858391::1::::<><>::
-hell-gato-2.png::CompressedTexture2D::3116282806233876661::1700858391::1700858391::1::::<><>::
-hell-gato-3.png::CompressedTexture2D::5155174596384835421::1700858391::1700858391::1::::<><>::
-hell-gato-4.png::CompressedTexture2D::1085591841926427481::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/::1700858391
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-attack/::1700858391
-hero-attack-1.png::CompressedTexture2D::2863380491491247154::1700858391::1700858391::1::::<><>::
-hero-attack-2.png::CompressedTexture2D::2023368100422998834::1700858391::1700858391::1::::<><>::
-hero-attack-3.png::CompressedTexture2D::358528817933016093::1700858391::1700858391::1::::<><>::
-hero-attack-4.png::CompressedTexture2D::7962818040926056057::1700858391::1700858391::1::::<><>::
-hero-attack-5.png::CompressedTexture2D::2683136231774129342::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-crouch/::1700858391
-hero-crouch.png::CompressedTexture2D::1706876142383328861::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-hurt/::1700858391
-hero-hurt.png::CompressedTexture2D::631834082600262463::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-idle/::1700858391
-hero-idle-1.png::CompressedTexture2D::8995623797127130356::1700858391::1700858391::1::::<><>::
-hero-idle-2.png::CompressedTexture2D::3577284776404143045::1700858391::1700858391::1::::<><>::
-hero-idle-3.png::CompressedTexture2D::9220589343857093815::1700858391::1700858391::1::::<><>::
-hero-idle-4.png::CompressedTexture2D::797265350182123853::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-jump/::1700858391
-hero-jump-1.png::CompressedTexture2D::8475336856706379791::1700858391::1700858391::1::::<><>::
-hero-jump-2.png::CompressedTexture2D::5438266549181545821::1700858391::1700858391::1::::<><>::
-hero-jump-3.png::CompressedTexture2D::8494697703228604008::1700858391::1700858391::1::::<><>::
-hero-jump-4.png::CompressedTexture2D::6426232993430403402::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-run/::1700858391
-hero-run-1.png::CompressedTexture2D::3318985042776706678::1700858391::1700858391::1::::<><>::
-hero-run-2.png::CompressedTexture2D::2885588892064255018::1700858391::1700858391::1::::<><>::
-hero-run-3.png::CompressedTexture2D::7597057941181058423::1700858391::1700858391::1::::<><>::
-hero-run-4.png::CompressedTexture2D::6808400416784628378::1700858391::1700858391::1::::<><>::
-hero-run-5.png::CompressedTexture2D::1123102675193763865::1700858391::1700858391::1::::<><>::
-hero-run-6.png::CompressedTexture2D::1511144171701787942::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/hero/previews/::1700858391
-::res://gothicvania-cemetery-files/PNG/Sprites/skeleton/::1700858391
-skeleton-1.png::CompressedTexture2D::6244075897266102325::1700858391::1700858391::1::::<><>::
-skeleton-2.png::CompressedTexture2D::8851922248591981437::1700858391::1700858391::1::::<><>::
-skeleton-3.png::CompressedTexture2D::3604736787955038582::1700858391::1700858391::1::::<><>::
-skeleton-4.png::CompressedTexture2D::1314789000416173621::1700858391::1700858391::1::::<><>::
-skeleton-5.png::CompressedTexture2D::287801802796747178::1700858391::1700858391::1::::<><>::
-skeleton-6.png::CompressedTexture2D::205258675949488172::1700858391::1700858391::1::::<><>::
-skeleton-7.png::CompressedTexture2D::9090210331581909305::1700858391::1700858391::1::::<><>::
-skeleton-8.png::CompressedTexture2D::4607309864700127493::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/skeleton-clothed/::1700858391
-skeleton-clothed-1.png::CompressedTexture2D::3499723378571632876::1700858391::1700858391::1::::<><>::
-skeleton-clothed-2.png::CompressedTexture2D::4784199427694090265::1700858391::1700858391::1::::<><>::
-skeleton-clothed-3.png::CompressedTexture2D::9080137095652961624::1700858391::1700858391::1::::<><>::
-skeleton-clothed-4.png::CompressedTexture2D::7223955073897289351::1700858391::1700858391::1::::<><>::
-skeleton-clothed-5.png::CompressedTexture2D::2066371307949632456::1700858391::1700858391::1::::<><>::
-skeleton-clothed-6.png::CompressedTexture2D::1726327712072167049::1700858391::1700858391::1::::<><>::
-skeleton-clothed-7.png::CompressedTexture2D::1578204196727357273::1700858391::1700858391::1::::<><>::
-skeleton-clothed-8.png::CompressedTexture2D::3928543844838773547::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/skeleton-rise/::1700858391
-skeleton-rise-1.png::CompressedTexture2D::5008686052350580075::1700858391::1700858391::1::::<><>::
-skeleton-rise-2.png::CompressedTexture2D::6760776805349364221::1700858391::1700858391::1::::<><>::
-skeleton-rise-3.png::CompressedTexture2D::7165656739205418901::1700858391::1700858391::1::::<><>::
-skeleton-rise-4.png::CompressedTexture2D::2280272780049124449::1700858391::1700858391::1::::<><>::
-skeleton-rise-5.png::CompressedTexture2D::1047371475649485718::1700858391::1700858391::1::::<><>::
-skeleton-rise-6.png::CompressedTexture2D::1510926986026203876::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PNG/Sprites/skeleton-rise-clothed/::1700858391
-skeleton-rise-clothed-1.png::CompressedTexture2D::3737989073225766594::1700858391::1700858391::1::::<><>::
-skeleton-rise-clothed-2.png::CompressedTexture2D::5743529327445424923::1700858391::1700858391::1::::<><>::
-skeleton-rise-clothed-3.png::CompressedTexture2D::3179764776793720465::1700858391::1700858391::1::::<><>::
-skeleton-rise-clothed-4.png::CompressedTexture2D::8419487221726511430::1700858391::1700858391::1::::<><>::
-skeleton-rise-clothed-5.png::CompressedTexture2D::9152104255502157303::1700858391::1700858391::1::::<><>::
-skeleton-rise-clothed-6.png::CompressedTexture2D::2970404819490617459::1700858391::1700858391::1::::<><>::
-::res://gothicvania-cemetery-files/PSD/::1700858391
-::res://gothicvania-cemetery-files/PSD/environment/::1700858391
-::res://gothicvania-cemetery-files/PSD/misc/::1700858391
-::res://gothicvania-cemetery-files/PSD/sprites/::1700858391
-::res://gothicvania-cemetery-files/PSD/sprites/hero/::1700858391
-::res://GUI/::1700859765
-hearts_container.gd::GDScript::-1::1700858391::0::1::::<>HBoxContainer<>::
-hearts_container.tscn::PackedScene::1393140079890615247::1700858391::0::1::::<><>::res://GUI/hearts_container.gd
-heart_gui.gd::GDScript::-1::1700859765::0::1::::<>Panel<>::
-heart_gui.tscn::PackedScene::5940936192325018927::1700858391::0::1::::<><>::uid://djwayg0tm7luc
-::res://HUD/::1700858391
-Heart.png::CompressedTexture2D::7836421168105418678::1700858391::1700858391::1::::<><>::
-::res://Player/::1700861660
-monk.gd::GDScript::-1::1700861660::0::1::::Monk<>CharacterBody2D<>::
-::res://Terrible Knight Files/::1700858391
-Battle Encounter.ogg::AudioStreamOggVorbis::8022697002640430885::1700858391::1700858391::1::::<><>::
-public-license.txt::TextFile::-1::1700858391::0::1::::<><>::
-::res://Terrible Knight Files/ase/::1700858391
-::res://Terrible Knight Files/ase/Enemies/::1700858391
-death-lamp.png::CompressedTexture2D::5135821893491188389::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/ase/fx/::1700858391
-::res://Terrible Knight Files/Evironment/::1700858391
-tileset.png::CompressedTexture2D::1258813664571156472::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Evironment/HauntedForest/::1700858391
-back-tileset.png::CompressedTexture2D::1968835399638503451::1700858391::1700858391::1::::<><>::
-back.png::CompressedTexture2D::9129525994004315372::1700858391::1700858391::1::::<><>::
-middle.png::CompressedTexture2D::4428576135758849353::1700858391::1700858391::1::::<><>::
-props.png::CompressedTexture2D::6339458352481710680::1700858391::1700858391::1::::<><>::
-tileset.png::CompressedTexture2D::7207637917644644490::1700858391::1700858391::1::::<><>::
-water-tileset.png::CompressedTexture2D::7431645969099400604::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Evironment/HauntedForest/Props/::1700858391
-pillars.png::CompressedTexture2D::7937515419435606896::1700858391::1700858391::1::::<><>::
-tree-2.png::CompressedTexture2D::2947194287414608619::1700858391::1700858391::1::::<><>::
-tree.png::CompressedTexture2D::4230503402815102268::1700858391::1700858391::1::::<><>::
-woods.png::CompressedTexture2D::5515010015539238044::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/More assets/::1700858391
-tree-2.png::CompressedTexture2D::9035248747197286934::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/More assets/EnemyDeath/::1700858391
-enemy-death1.png::CompressedTexture2D::8666085633475421895::1700858391::1700858391::1::::<><>::
-enemy-death2.png::CompressedTexture2D::4347941161833127332::1700858391::1700858391::1::::<><>::
-enemy-death3.png::CompressedTexture2D::3059511043697421583::1700858391::1700858391::1::::<><>::
-enemy-death4.png::CompressedTexture2D::6698431265384848646::1700858391::1700858391::1::::<><>::
-enemy-death5.png::CompressedTexture2D::1404954806316813472::1700858391::1700858391::1::::<><>::
-enemy-death6.png::CompressedTexture2D::5883696482492745965::1700858391::1700858391::1::::<><>::
-enemy-death7.png::CompressedTexture2D::6054602899825807273::1700858391::1700858391::1::::<><>::
-enemy-death8.png::CompressedTexture2D::8577910227944800884::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/More assets/Hit/::1700858391
-hit1.png::CompressedTexture2D::4881974042258472171::1700858391::1700858391::1::::<><>::
-hit2.png::CompressedTexture2D::9164262355806515871::1700858391::1700858391::1::::<><>::
-hit3.png::CompressedTexture2D::4883992317073945892::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Previews/::1700858391
-::res://Terrible Knight Files/Previews/crow/::1700858391
-::res://Terrible Knight Files/Previews/Deathlamp/::1700858391
-::res://Terrible Knight Files/Previews/Flying-Eye-Demon/::1700858391
-::res://Terrible Knight Files/Previews/meerman/::1700858391
-::res://Terrible Knight Files/Previews/mutant-toad/::1700858391
-::res://Terrible Knight Files/Previews/Ogre/::1700858391
-::res://Terrible Knight Files/Previews/Player/::1700858391
-::res://Terrible Knight Files/Previews/WereWolf/::1700858391
-::res://Terrible Knight Files/Sprites/::1700858391
-::res://Terrible Knight Files/Sprites/crow/::1700858391
-::res://Terrible Knight Files/Sprites/crow/fly/::1700858391
-crow-fly1.png::CompressedTexture2D::8191697343011798879::1700858391::1700858391::1::::<><>::
-crow-fly2.png::CompressedTexture2D::9167816033841311276::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/crow/front/::1700858391
-crow-front1.png::CompressedTexture2D::1340908364669807778::1700858391::1700858391::1::::<><>::
-crow-front2.png::CompressedTexture2D::7938491270114081751::1700858391::1700858391::1::::<><>::
-crow-front3.png::CompressedTexture2D::8488187545761466842::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/crow/idle/::1700858391
-crow-idle1.png::CompressedTexture2D::7806646650006825958::1700858391::1700858391::1::::<><>::
-crow-idle2.png::CompressedTexture2D::5062830375512701193::1700858391::1700858391::1::::<><>::
-crow-idle3.png::CompressedTexture2D::7438435252007955425::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/death/::1700858391
-death-walk1.png::CompressedTexture2D::9023695594166789309::1700858391::1700858391::1::::<><>::
-death-walk2.png::CompressedTexture2D::2752821103489365249::1700858391::1700858391::1::::<><>::
-death-walk3.png::CompressedTexture2D::5195385417471282899::1700858391::1700858391::1::::<><>::
-death-walk4.png::CompressedTexture2D::8730175955133708565::1700858391::1700858391::1::::<><>::
-death-walk5.png::CompressedTexture2D::2750776501341255186::1700858391::1700858391::1::::<><>::
-death-walk6.png::CompressedTexture2D::6527178718511237992::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/death-lamp/::1700858391
-::res://Terrible Knight Files/Sprites/death-lamp/rise/::1700858391
-death-lamp1.png::CompressedTexture2D::9035467982600066633::1700858391::1700858391::1::::<><>::
-death-lamp2.png::CompressedTexture2D::1383415657009546479::1700858391::1700858391::1::::<><>::
-death-lamp3.png::CompressedTexture2D::447016965419178659::1700858391::1700858391::1::::<><>::
-death-lamp4.png::CompressedTexture2D::7039558568648399551::1700858391::1700858391::1::::<><>::
-death-lamp5.png::CompressedTexture2D::6056595532349796093::1700858391::1700858391::1::::<><>::
-death-lamp6.png::CompressedTexture2D::4380652752972524303::1700858391::1700858391::1::::<><>::
-death-lamp7.png::CompressedTexture2D::5055544200271306840::1700858391::1700858391::1::::<><>::
-death-lamp8.png::CompressedTexture2D::1826230237604607355::1700858391::1700858391::1::::<><>::
-death-lamp9.png::CompressedTexture2D::756387280801332009::1700858391::1700858391::1::::<><>::
-death-lamp10.png::CompressedTexture2D::6168695780163121395::1700858391::1700858391::1::::<><>::
-death-lamp11.png::CompressedTexture2D::1713847290689506245::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/death-lamp/walk/::1700858391
-death-lamp-walk1.png::CompressedTexture2D::3219001313033778543::1700858391::1700858391::1::::<><>::
-death-lamp-walk2.png::CompressedTexture2D::6451675901639052341::1700858391::1700858391::1::::<><>::
-death-lamp-walk3.png::CompressedTexture2D::6686265365688116066::1700858391::1700858391::1::::<><>::
-death-lamp-walk4.png::CompressedTexture2D::6378599564085882107::1700858391::1700858391::1::::<><>::
-death-lamp-walk5.png::CompressedTexture2D::5532011659701325982::1700858391::1700858391::1::::<><>::
-death-lamp-walk6.png::CompressedTexture2D::8746167776979329333::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/flying-eye-demon/::1700858391
-flying-eye-demon1.png::CompressedTexture2D::6864464232986086800::1700858391::1700858391::1::::<><>::
-flying-eye-demon2.png::CompressedTexture2D::8533057908521465046::1700858391::1700858391::1::::<><>::
-flying-eye-demon3.png::CompressedTexture2D::135734629266470816::1700858391::1700858391::1::::<><>::
-flying-eye-demon4.png::CompressedTexture2D::7783841482444319796::1700858391::1700858391::1::::<><>::
-flying-eye-demon5.png::CompressedTexture2D::9082520314954137981::1700858391::1700858391::1::::<><>::
-flying-eye-demon6.png::CompressedTexture2D::5067655286100734176::1700858391::1700858391::1::::<><>::
-flying-eye-demon7.png::CompressedTexture2D::2586184873826415448::1700858391::1700858391::1::::<><>::
-flying-eye-demon8.png::CompressedTexture2D::8244757178591657438::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/meerman/::1700858391
-meerman1.png::CompressedTexture2D::3203508726961353205::1700858391::1700858391::1::::<><>::
-meerman2.png::CompressedTexture2D::4705848883884565137::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/mutant-toad/::1700858391
-::res://Terrible Knight Files/Sprites/mutant-toad/attack/::1700858391
-mutant-toad-attack1.png::CompressedTexture2D::624728655076946495::1700858391::1700858391::1::::<><>::
-mutant-toad-attack2.png::CompressedTexture2D::4645972380611018616::1700858391::1700858391::1::::<><>::
-mutant-toad-attack3.png::CompressedTexture2D::5975560368073421479::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/mutant-toad/idle/::1700858391
-mutant-toad-idle1.png::CompressedTexture2D::6585465269421145065::1700858391::1700858391::1::::<><>::
-mutant-toad-idle2.png::CompressedTexture2D::57368977941359643::1700858391::1700858391::1::::<><>::
-mutant-toad-idle3.png::CompressedTexture2D::914852239086414289::1700858391::1700858391::1::::<><>::
-mutant-toad-idle4.png::CompressedTexture2D::8130160319444202952::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/mutant-toad/jump/::1700858391
-mutant-toad-jump1.png::CompressedTexture2D::5130882549507289355::1700858391::1700858391::1::::<><>::
-mutant-toad-jump2.png::CompressedTexture2D::9018464967014016497::1700858391::1700858391::1::::<><>::
-mutant-toad-jump3.png::CompressedTexture2D::2316679528051704335::1700858391::1700858391::1::::<><>::
-mutant-toad-jump4.png::CompressedTexture2D::6189161000552358353::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Ogre/::1700858391
-::res://Terrible Knight Files/Sprites/Ogre/Attack/::1700858391
-ogre-attack1.png::CompressedTexture2D::5266307539614230158::1700858391::1700858391::1::::<><>::
-ogre-attack2.png::CompressedTexture2D::2806454114886813753::1700858391::1700858391::1::::<><>::
-ogre-attack3.png::CompressedTexture2D::5509486118374198683::1700858391::1700858391::1::::<><>::
-ogre-attack4.png::CompressedTexture2D::306812636257632639::1700858391::1700858391::1::::<><>::
-ogre-attack5.png::CompressedTexture2D::4660940136281165608::1700858391::1700858391::1::::<><>::
-ogre-attack6.png::CompressedTexture2D::2419282755618138859::1700858391::1700858391::1::::<><>::
-ogre-attack7.png::CompressedTexture2D::4598621354411856675::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Ogre/Idle/::1700858391
-ogre-idle1.png::CompressedTexture2D::1624456939758172572::1700858391::1700858391::1::::<><>::
-ogre-idle2.png::CompressedTexture2D::2576221654337322876::1700858391::1700858391::1::::<><>::
-ogre-idle3.png::CompressedTexture2D::3696096601045379332::1700858391::1700858391::1::::<><>::
-ogre-idle4.png::CompressedTexture2D::3588207814867984279::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Ogre/idle-unarmed/::1700858391
-ogre-idle-unarmed1.png::CompressedTexture2D::3860983673554840336::1700858391::1700858391::1::::<><>::
-ogre-idle-unarmed2.png::CompressedTexture2D::4410916908372764309::1700858391::1700858391::1::::<><>::
-ogre-idle-unarmed3.png::CompressedTexture2D::384829526543466234::1700858391::1700858391::1::::<><>::
-ogre-idle-unarmed4.png::CompressedTexture2D::3913752125653534486::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Ogre/walk/::1700858391
-ogre-walk1.png::CompressedTexture2D::3433643361708626821::1700858391::1700858391::1::::<><>::
-ogre-walk2.png::CompressedTexture2D::8854995672982723992::1700858391::1700858391::1::::<><>::
-ogre-walk3.png::CompressedTexture2D::1273739915111888080::1700858391::1700858391::1::::<><>::
-ogre-walk4.png::CompressedTexture2D::7857689115248672321::1700858391::1700858391::1::::<><>::
-ogre-walk5.png::CompressedTexture2D::7894049646064828647::1700858391::1700858391::1::::<><>::
-ogre-walk6.png::CompressedTexture2D::2352795599444874615::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Ogre/walk-unarmed/::1700858391
-ogre-walk-unarmed1.png::CompressedTexture2D::2610793642410804710::1700858391::1700858391::1::::<><>::
-ogre-walk-unarmed2.png::CompressedTexture2D::3481561077591012731::1700858391::1700858391::1::::<><>::
-ogre-walk-unarmed3.png::CompressedTexture2D::1505323780789420656::1700858391::1700858391::1::::<><>::
-ogre-walk-unarmed4.png::CompressedTexture2D::3306173806394463327::1700858391::1700858391::1::::<><>::
-ogre-walk-unarmed5.png::CompressedTexture2D::3515869873064060962::1700858391::1700858391::1::::<><>::
-ogre-walk-unarmed6.png::CompressedTexture2D::5490227624413412943::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/::1700858391
-::res://Terrible Knight Files/Sprites/Player/attack-crouch/::1700858391
-attack-crouch1.png::CompressedTexture2D::8556228684904170453::1700858391::1700858391::1::::<><>::
-attack-crouch2.png::CompressedTexture2D::8836581479617076986::1700858391::1700858391::1::::<><>::
-attack-crouch3.png::CompressedTexture2D::7135271344927110529::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/attack-side/::1700858391
-attack-side-export1.png::CompressedTexture2D::5710201181931541486::1700858391::1700858391::1::::<><>::
-attack-side-export2.png::CompressedTexture2D::7349477699059129130::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/attack-up/::1700858391
-attack-up-export1.png::CompressedTexture2D::5210321447354219991::1700858391::1700858391::1::::<><>::
-attack-up-export2.png::CompressedTexture2D::4218627785299565343::1700858391::1700858391::1::::<><>::
-attack-up-export3.png::CompressedTexture2D::1467003783109602221::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/crouch/::1700858391
-crouch-export1.png::CompressedTexture2D::273471794359042579::1700858391::1700858391::1::::<><>::
-crouch-export2.png::CompressedTexture2D::3814208729007982782::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/idle/::1700858391
-idle-export1.png::CompressedTexture2D::3685839712802986367::1700858391::1700858391::1::::<><>::
-idle-export2.png::CompressedTexture2D::4689001934996212308::1700858391::1700858391::1::::<><>::
-idle-export3.png::CompressedTexture2D::4644650876169415391::1700858391::1700858391::1::::<><>::
-idle-export4.png::CompressedTexture2D::650274953519466925::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/jump/::1700858391
-jump-export1.png::CompressedTexture2D::3731425023083231754::1700858391::1700858391::1::::<><>::
-jump-export2.png::CompressedTexture2D::6770623879673728365::1700858391::1700858391::1::::<><>::
-jump-export3.png::CompressedTexture2D::878745647418477126::1700858391::1700858391::1::::<><>::
-jump-export4.png::CompressedTexture2D::1303433483282925406::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/jump-attack/::1700858391
-jump-attack-export1.png::CompressedTexture2D::7310819131281750722::1700858391::1700858391::1::::<><>::
-jump-attack-export2.png::CompressedTexture2D::2562008052722261365::1700858391::1700858391::1::::<><>::
-jump-attack-export3.png::CompressedTexture2D::5937111289270762600::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Player/run/::1700858391
-run-export1.png::CompressedTexture2D::2980492312161897063::1700858391::1700858391::1::::<><>::
-run-export2.png::CompressedTexture2D::8967424799349539714::1700858391::1700858391::1::::<><>::
-run-export3.png::CompressedTexture2D::6790755165289433821::1700858391::1700858391::1::::<><>::
-run-export4.png::CompressedTexture2D::3381436173681168837::1700858391::1700858391::1::::<><>::
-run-export5.png::CompressedTexture2D::1417457456231693683::1700858391::1700858391::1::::<><>::
-run-export6.png::CompressedTexture2D::2942460484578354513::1700858391::1700858391::1::::<><>::
-run-export7.png::CompressedTexture2D::2662822474267553706::1700858391::1700858391::1::::<><>::
-run-export8.png::CompressedTexture2D::8327555821830259223::1700858391::1700858391::1::::<><>::
-run-export9.png::CompressedTexture2D::7221866533100647768::1700858391::1700858391::1::::<><>::
-run-export10.png::CompressedTexture2D::2016097081686239030::1700858391::1700858391::1::::<><>::
-run-export11.png::CompressedTexture2D::5190963775029632771::1700858391::1700858391::1::::<><>::
-run-export12.png::CompressedTexture2D::8347667945509026914::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/Projectiles/::1700858391
-dagger.png::CompressedTexture2D::8339670968424023024::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/shots/::1700858391
-shot-1.png::CompressedTexture2D::5520661222636259005::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/WereWolf/::1700858391
-::res://Terrible Knight Files/Sprites/WereWolf/fall/::1700858391
-werewolf-fall1.png::CompressedTexture2D::4096099074356582584::1700858391::1700858391::1::::<><>::
-werewolf-fall2.png::CompressedTexture2D::7515174043560009711::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/WereWolf/Idle/::1700858391
-werewolf-idle1.png::CompressedTexture2D::5361282999814994388::1700858391::1700858391::1::::<><>::
-werewolf-idle2.png::CompressedTexture2D::9028362279840629036::1700858391::1700858391::1::::<><>::
-werewolf-idle3.png::CompressedTexture2D::4672760067601253240::1700858391::1700858391::1::::<><>::
-werewolf-idle4.png::CompressedTexture2D::5971401997414748721::1700858391::1700858391::1::::<><>::
-werewolf-idle5.png::CompressedTexture2D::7427561295651872626::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/WereWolf/jump/::1700858391
-werewolf-jump1.png::CompressedTexture2D::3649136868286160023::1700858391::1700858391::1::::<><>::
-werewolf-jump2.png::CompressedTexture2D::3869313635000300470::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Sprites/WereWolf/run/::1700858391
-werewolf-run1.png::CompressedTexture2D::7125064459747847354::1700858391::1700858391::1::::<><>::
-werewolf-run2.png::CompressedTexture2D::4116143705209813586::1700858391::1700858391::1::::<><>::
-werewolf-run3.png::CompressedTexture2D::1889280928689673986::1700858391::1700858391::1::::<><>::
-werewolf-run4.png::CompressedTexture2D::2992743033630007536::1700858391::1700858391::1::::<><>::
-werewolf-run5.png::CompressedTexture2D::7056205372482935344::1700858391::1700858391::1::::<><>::
-werewolf-run6.png::CompressedTexture2D::3765396121557173004::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/::1700858391
-::res://Terrible Knight Files/Spritesheets/crow/::1700858391
-crow-all.png::CompressedTexture2D::1125625543183373133::1700858391::1700858391::1::::<><>::
-crow-fly.png::CompressedTexture2D::8185591981880299406::1700858391::1700858391::1::::<><>::
-crow-front.png::CompressedTexture2D::6989447288420398511::1700858391::1700858391::1::::<><>::
-crow-idle.png::CompressedTexture2D::8058759654878094475::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/death-lamp/::1700858391
-death-lamp-rise.png::CompressedTexture2D::896212039383543725::1700858391::1700858391::1::::<><>::
-death-lamp-walk.png::CompressedTexture2D::8819739298846511224::1700858391::1700858391::1::::<><>::
-death-walk.png::CompressedTexture2D::2542398663746872159::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/Flying-eye-demon/::1700858391
-flying-eye-demon.png::CompressedTexture2D::7648417832897474678::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/meerman/::1700858391
-meerman.png::CompressedTexture2D::4517184907601345629::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/mutant-toad/::1700858391
-mutant-toad-attack.png::CompressedTexture2D::6893305043943505192::1700858391::1700858391::1::::<><>::
-mutant-toad-idle.png::CompressedTexture2D::8585999316314301720::1700858391::1700858391::1::::<><>::
-mutant-toad-jump.png::CompressedTexture2D::979525010514653893::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/Ogre/::1700858391
-ogre-all.png::CompressedTexture2D::7173068641001886209::1700858391::1700858391::1::::<><>::
-ogre-attack.png::CompressedTexture2D::8121325426800962640::1700858391::1700858391::1::::<><>::
-ogre-idle-unarmed.png::CompressedTexture2D::7086586094800993383::1700858391::1700858391::1::::<><>::
-ogre-idle.png::CompressedTexture2D::1119484102706368990::1700858391::1700858391::1::::<><>::
-ogre-walk-unarmed.png::CompressedTexture2D::3602714594243944080::1700858391::1700858391::1::::<><>::
-ogre-walk.png::CompressedTexture2D::770016704604984954::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/player/::1700858391
-attack-crouch.png::CompressedTexture2D::7361396756166038469::1700858391::1700858391::1::::<><>::
-attack-side.png::CompressedTexture2D::359500736265035429::1700858391::1700858391::1::::<><>::
-attack-up.png::CompressedTexture2D::1082868296084033800::1700858391::1700858391::1::::<><>::
-crouch.png::CompressedTexture2D::328432407803914155::1700858391::1700858391::1::::<><>::
-idle.png::CompressedTexture2D::4470450929015929805::1700858391::1700858391::1::::<><>::
-jump-attack.png::CompressedTexture2D::3270124197444726985::1700858391::1700858391::1::::<><>::
-jump.png::CompressedTexture2D::3597390447667955219::1700858391::1700858391::1::::<><>::
-player-all.png::CompressedTexture2D::245473805195944701::1700858391::1700858391::1::::<><>::
-run.png::CompressedTexture2D::2091469487433230625::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/splash/::1700858391
-splash.png::CompressedTexture2D::7222509315298154363::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/Spritesheets/WereWolf/::1700858391
-werewolf-fall.png::CompressedTexture2D::6539684861956853037::1700858391::1700858391::1::::<><>::
-werewolf-idle.png::CompressedTexture2D::6240784952033641466::1700858391::1700858391::1::::<><>::
-werewolf-jump.png::CompressedTexture2D::1322395269015786986::1700858391::1700858391::1::::<><>::
-werewolf-run.png::CompressedTexture2D::1841560348021681371::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/VFX/::1700858391
-enemy-death.png::CompressedTexture2D::7791749412921270104::1700858391::1700858391::1::::<><>::
-hit.png::CompressedTexture2D::4811934220403504328::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/VFX/ase/::1700858391
-::res://Terrible Knight Files/VFX/Previews/::1700858391
-::res://Terrible Knight Files/VFX/Sprites/::1700858391
-::res://Terrible Knight Files/VFX/Sprites/EnemyDeath/::1700858391
-enemy-death1.png::CompressedTexture2D::5534768787384017942::1700858391::1700858391::1::::<><>::
-enemy-death2.png::CompressedTexture2D::492858991193310114::1700858391::1700858391::1::::<><>::
-enemy-death3.png::CompressedTexture2D::3305939582740078047::1700858391::1700858391::1::::<><>::
-enemy-death4.png::CompressedTexture2D::3894802976287158663::1700858391::1700858391::1::::<><>::
-enemy-death5.png::CompressedTexture2D::2224628092747111566::1700858391::1700858391::1::::<><>::
-enemy-death6.png::CompressedTexture2D::927529797983397041::1700858391::1700858391::1::::<><>::
-enemy-death7.png::CompressedTexture2D::2387135084401182534::1700858391::1700858391::1::::<><>::
-enemy-death8.png::CompressedTexture2D::1739186891922129535::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/VFX/Sprites/Hit/::1700858391
-hit1.png::CompressedTexture2D::883676353216542871::1700858391::1700858391::1::::<><>::
-hit2.png::CompressedTexture2D::1983937994431277594::1700858391::1700858391::1::::<><>::
-hit3.png::CompressedTexture2D::1604932716582489595::1700858391::1700858391::1::::<><>::
-::res://Terrible Knight Files/VFX/SpriteSheets/::1700858391
-enemy-death.png::CompressedTexture2D::1008070511799677144::1700858391::1700858391::1::::<><>::
-hit.png::CompressedTexture2D::1840123758242855363::1700858391::1700858391::1::::<><>::
+::res://::1701459716
+background.tscn::PackedScene::6317892184346850607::1701457833::0::1::::<><>::uid://ctatuxhlfhrc2::::res://gothicvania-cemetery-files/PNG/Environment/hell.png
+CharacterBody2D.gd::GDScript::-1::1701457832::0::1::::<>CharacterBody2D<>::
+EnemySkull.gd::GDScript::-1::1701457832::0::1::::EnemySkull<>CharacterBody2D<>::
+EnemySkull.tscn::PackedScene::7441511243793592271::1701459691::0::1::::<><>::res://EnemySkull.gd<>uid://mxm8vnn1e2x7::::res://2D explosions/Type 1/1.png<>uid://csqxkeuuoxgin::::res://2D explosions/Type 1/2.png<>uid://br4wqa25yolg7::::res://2D explosions/Type 1/3.png<>uid://cuuqa4s3tgkxl::::res://2D explosions/Type 1/4.png<>uid://mnqvp28m3h41::::res://2D explosions/Type 1/5.png<>uid://8yuthpmbjgt6::::res://2D explosions/Type 1/6.png<>uid://c6vdmihmeh0qg::::res://2D explosions/Type 1/7.png<>uid://bhdt6v4x211kk::::res://2D explosions/Type 1/8.png<>uid://cih2r4u2rv8hd::::res://gothicvania patreon collection/Fire-Skull-Files/PNG/fire-skull.png
+gameover.gd::GDScript::-1::1701457833::0::1::::<>Node2D<>::
+gameover.tscn::PackedScene::1979944025147701172::1701459691::0::1::::<><>::res://gameover.gd
+Level2.tscn::PackedScene::2439651960751085443::1701459691::0::1::::<><>::res://world.gd<>uid://b44rjig3lmnx5::::res://gothicvania church/assets/environment/tileset.png<>uid://cwao048aqm1e6::::res://background.tscn<>uid://cedmdk5u06xmy::::res://monk.tscn<>uid://deayurbal51w2::::res://EnemySkull.tscn<>uid://t332wq1hexbb::::res://GUI/hearts_container.tscn<>uid://c7e3ekxdxnod1::::res://soul.tscn
+level3.tscn::PackedScene::1648317647558798112::1701459691::0::1::::<><>::res://world.gd<>uid://b44rjig3lmnx5::::res://gothicvania church/assets/environment/tileset.png<>uid://cwao048aqm1e6::::res://background.tscn<>uid://cedmdk5u06xmy::::res://monk.tscn<>uid://deayurbal51w2::::res://EnemySkull.tscn<>uid://t332wq1hexbb::::res://GUI/hearts_container.tscn<>uid://c7e3ekxdxnod1::::res://soul.tscn
+main.gd::GDScript::-1::1701459691::0::1::::<>Node2D<>::
+main.tscn::PackedScene::751013833794133389::1701459691::0::1::::<><>::res://main.gd
+monk.tscn::PackedScene::5060524409016419476::1701459691::0::1::::<><>::uid://b7ua3umbcwf4j::::res://gothicvania church files/SPRITES/player/sprites/crouch1.png<>res://Player/monk.gd<>uid://ruh4h7lu0syh::::res://gothicvania church files/SPRITES/player/sprites/crouch2.png<>uid://dhngyj2a0e2n0::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick1.png<>uid://cel2mkunap141::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick2.png<>uid://c1l1djlg3wi04::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick3.png<>uid://bv7eu6fdmdhw8::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick4.png<>uid://m20cucikk07r::::res://gothicvania church files/SPRITES/player/sprites/crouch-kick5.png<>uid://b754hh5b5shbc::::res://gothicvania church files/SPRITES/player/sprites/fall1.png<>uid://dtx5oo560v2vj::::res://gothicvania church files/SPRITES/player/sprites/fall2.png<>uid://b5ar8278wsdq7::::res://gothicvania church files/SPRITES/player/sprites/flying-kick1.png<>uid://18ggfeilanvd::::res://gothicvania church files/SPRITES/player/sprites/flying-kick2.png<>uid://vmbfdsypxki4::::res://gothicvania church files/SPRITES/player/sprites/hurt1.png<>uid://comjk3lkmfg30::::res://gothicvania church files/SPRITES/player/sprites/hurt2.png<>uid://bm8ntr7nxbo6x::::res://gothicvania church files/SPRITES/player/sprites/idle1.png<>uid://dx70vydgy8upm::::res://gothicvania church files/SPRITES/player/sprites/idle2.png<>uid://fd6jfppf35p4::::res://gothicvania church files/SPRITES/player/sprites/idle3.png<>uid://bei6wjc2fviki::::res://gothicvania church files/SPRITES/player/sprites/idle4.png<>uid://b6uhie1r4tert::::res://gothicvania church files/SPRITES/player/sprites/jump1.png<>uid://dt4ufaasuomx7::::res://gothicvania church files/SPRITES/player/sprites/jump2.png<>uid://cjkdoin2eik6r::::res://gothicvania church files/SPRITES/player/sprites/kick2.png<>uid://dpla8ognot6gl::::res://gothicvania church files/SPRITES/player/sprites/kick3.png<>uid://cuhq10quk6f3h::::res://gothicvania church files/SPRITES/player/sprites/kick4.png<>uid://djko8o0bqkf8r::::res://gothicvania church files/SPRITES/player/sprites/kick5.png<>uid://7ldooyscac75::::res://gothicvania church files/SPRITES/player/sprites/punch1.png<>uid://cnx5k6y0wndo7::::res://gothicvania church files/SPRITES/player/sprites/punch2.png<>uid://dqc4f8408hats::::res://gothicvania church files/SPRITES/player/sprites/punch3.png<>uid://b0a2bcq7g5ryx::::res://gothicvania church files/SPRITES/player/sprites/punch4.png<>uid://016k4f11aos2::::res://gothicvania church files/SPRITES/player/sprites/punch5.png<>uid://bsdxpva4rs0wu::::res://gothicvania church files/SPRITES/player/sprites/punch6.png<>uid://bjd47ygqufvdm::::res://gothicvania church files/SPRITES/player/sprites/walk1.png<>uid://cj2fk4nrpawm8::::res://gothicvania church files/SPRITES/player/sprites/walk2.png<>uid://bb7jmlnhw8odk::::res://gothicvania church files/SPRITES/player/sprites/walk3.png<>uid://dh5jauewm3tm8::::res://gothicvania church files/SPRITES/player/sprites/walk4.png<>uid://bvsg20e6tdwr4::::res://gothicvania church files/SPRITES/player/sprites/walk5.png<>uid://c6qgduisp7ot::::res://gothicvania church files/SPRITES/player/sprites/walk6.png
+README.md::TextFile::-1::1701457832::0::1::::<><>::
+soul.gd::GDScript::-1::1701457833::0::1::::Soul<>CharacterBody2D<>::
+soul.tscn::PackedScene::7028849654724130352::1701457833::0::1::::<><>::uid://ju2tfl12nr40::::res://Effects Pack 12/2/1.png<>res://soul.gd<>uid://87rphxuymtfw::::res://Effects Pack 12/2/2.png<>uid://kxv1krol83wy::::res://Effects Pack 12/2/3.png<>uid://c2yei2filslt1::::res://Effects Pack 12/2/4.png<>uid://qmna5g1s4i8::::res://Effects Pack 12/2/5.png<>uid://ubdkvrl188bl::::res://Effects Pack 12/2/6.png<>uid://dtjmv2co036qy::::res://Effects Pack 12/2/7.png<>uid://bf11tf3a74x84::::res://Effects Pack 12/2/8.png<>uid://crvnowkl4mjfs::::res://Effects Pack 12/2/9.png<>uid://y3e5f0hwg4j::::res://Effects Pack 12/2/10.png<>uid://cpbuelm0uobyg::::res://Effects Pack 12/2/11.png<>uid://pyvg2y23cn51::::res://Effects Pack 12/2/12.png<>uid://c5pkvhx4vd4ld::::res://Effects Pack 12/2/13.png<>uid://bpse04miaviw3::::res://Effects Pack 12/2/14.png<>uid://dsrvbwuo2nhsq::::res://Effects Pack 12/2/15.png<>uid://7v1gon3gfdwd::::res://Effects Pack 12/2/16.png<>uid://r515iif0qoid::::res://Effects Pack 12/2/17.png<>uid://g0qjw173lb45::::res://Effects Pack 12/2/18.png<>uid://cv1jmoiqjde8m::::res://Effects Pack 12/2/19.png<>uid://dkrx27owmvskw::::res://Effects Pack 12/2/20.png<>uid://bx84s3ie14gkc::::res://Effects Pack 12/2/21.png<>uid://bvm2u3nseees0::::res://Effects Pack 12/2/22.png<>uid://crgiomynhh6uh::::res://Effects Pack 12/2/23.png<>uid://crt460jfwey45::::res://Effects Pack 12/2/24.png<>uid://dtvs0uqfwbgt1::::res://Effects Pack 12/2/25.png<>uid://bbnibqqkxmgwi::::res://Effects Pack 12/2/26.png<>uid://iakcg765w76l::::res://Effects Pack 12/2/27.png<>uid://c5gacr5dhk4eh::::res://Effects Pack 12/2/28.png<>uid://caqcdoykk23e6::::res://Effects Pack 12/2/29.png<>uid://cm8nd5h2t4pi0::::res://Effects Pack 12/2/30.png
+world.gd::GDScript::-1::1701459691::0::1::::<>Node2D<>::
+world.tscn::PackedScene::8053252831962048027::1701459691::0::1::::<><>::res://world.gd<>uid://b44rjig3lmnx5::::res://gothicvania church/assets/environment/tileset.png<>uid://cwao048aqm1e6::::res://background.tscn<>uid://deayurbal51w2::::res://EnemySkull.tscn<>uid://cedmdk5u06xmy::::res://monk.tscn<>uid://c7e3ekxdxnod1::::res://soul.tscn<>uid://t332wq1hexbb::::res://GUI/hearts_container.tscn
+::res://2D explosions/::1701457832
+read me.txt::TextFile::-1::1701457832::0::1::::<><>::
+::res://2D explosions/other packs/::1701457832
+2.png::CompressedTexture2D::1699336138013534659::1701457832::1701457832::1::::<><>::
+3.png::CompressedTexture2D::3551520172059054761::1701457832::1701457832::1::::<><>::
+4.png::CompressedTexture2D::5195792041863600439::1701457832::1701457832::1::::<><>::
+5.png::CompressedTexture2D::8011425405373409455::1701457832::1701457832::1::::<><>::
+6.png::CompressedTexture2D::5905196430361653082::1701457832::1701457832::1::::<><>::
+7.png::CompressedTexture2D::5082043265518168148::1701457832::1701457832::1::::<><>::
+pack 1.png::CompressedTexture2D::1091936134185375031::1701457832::1701457832::1::::<><>::
+read me.txt::TextFile::-1::1701457832::0::1::::<><>::
+::res://2D explosions/Type 1/::1701457832
+1.png::CompressedTexture2D::890535470810227514::1701457832::1701457832::1::::<><>::
+2.png::CompressedTexture2D::6070685187626236365::1701457832::1701457832::1::::<><>::
+3.png::CompressedTexture2D::3640862370056142856::1701457832::1701457832::1::::<><>::
+4.png::CompressedTexture2D::6218878819393772833::1701457832::1701457832::1::::<><>::
+5.png::CompressedTexture2D::870112839091917968::1701457832::1701457832::1::::<><>::
+6.png::CompressedTexture2D::2367025567474465621::1701457832::1701457832::1::::<><>::
+7.png::CompressedTexture2D::6992251465056926530::1701457832::1701457832::1::::<><>::
+8.png::CompressedTexture2D::2885145853766950886::1701457832::1701457832::1::::<><>::
+::res://2D explosions/Type 2/::1701457832
+1.png::CompressedTexture2D::1684411791781237377::1701457832::1701457832::1::::<><>::
+2.png::CompressedTexture2D::6705349855603113684::1701457832::1701457832::1::::<><>::
+3.png::CompressedTexture2D::5888038703270143044::1701457832::1701457832::1::::<><>::
+4.png::CompressedTexture2D::7876587117921445260::1701457832::1701457832::1::::<><>::
+::res://2D explosions/Type 3/::1701457832
+1.png::CompressedTexture2D::4580817725498886605::1701457832::1701457832::1::::<><>::
+2.png::CompressedTexture2D::3902624604591673581::1701457832::1701457832::1::::<><>::
+3.png::CompressedTexture2D::3410035821550062194::1701457832::1701457832::1::::<><>::
+4.png::CompressedTexture2D::95320740077136620::1701457832::1701457832::1::::<><>::
+5.png::CompressedTexture2D::3135386255457225409::1701457832::1701457832::1::::<><>::
+6.png::CompressedTexture2D::1774306864927433565::1701457832::1701457832::1::::<><>::
+::res://caves/::1701457833
+background1.png::CompressedTexture2D::2723274884489326679::1701457833::1701457833::1::::<><>::
+background2.png::CompressedTexture2D::1791020137548322539::1701457833::1701457833::1::::<><>::
+background3.png::CompressedTexture2D::6613827171761791906::1701457833::1701457833::1::::<><>::
+background4a.png::CompressedTexture2D::2548314200445109607::1701457833::1701457833::1::::<><>::
+background4b.png::CompressedTexture2D::8285453229340525706::1701457833::1701457833::1::::<><>::
+mainlev_build.png::CompressedTexture2D::3222209087907348247::1701457833::1701457833::1::::<><>::
+props1.png::CompressedTexture2D::7473091345375856515::1701457833::1701457833::1::::<><>::
+props2.png::CompressedTexture2D::8767278625261297114::1701457833::1701457833::1::::<><>::
+::res://caves/PSD/::1701457833
+::res://Effects Pack 12/::1701457832
+::res://Effects Pack 12/1/::1701457832
+1.png::CompressedTexture2D::1317781107142720426::1701457832::1701457832::1::::<><>::
+2.png::CompressedTexture2D::3867842981578319059::1701457832::1701457832::1::::<><>::
+3.png::CompressedTexture2D::2329959133533877438::1701457832::1701457832::1::::<><>::
+4.png::CompressedTexture2D::6751016801073864763::1701457832::1701457832::1::::<><>::
+5.png::CompressedTexture2D::678873746099125708::1701457832::1701457832::1::::<><>::
+6.png::CompressedTexture2D::6827066160310160937::1701457832::1701457832::1::::<><>::
+7.png::CompressedTexture2D::7719889383558667942::1701457832::1701457832::1::::<><>::
+8.png::CompressedTexture2D::1467128610951093752::1701457832::1701457832::1::::<><>::
+9.png::CompressedTexture2D::3263801156380599419::1701457832::1701457832::1::::<><>::
+10.png::CompressedTexture2D::3558233004051060482::1701457832::1701457832::1::::<><>::
+11.png::CompressedTexture2D::8409868093168880417::1701457832::1701457832::1::::<><>::
+12.png::CompressedTexture2D::148971543100838599::1701457832::1701457832::1::::<><>::
+13.png::CompressedTexture2D::4514145028788580791::1701457832::1701457832::1::::<><>::
+14.png::CompressedTexture2D::2573221184218578150::1701457832::1701457832::1::::<><>::
+15.png::CompressedTexture2D::1866384634937079438::1701457832::1701457832::1::::<><>::
+16.png::CompressedTexture2D::3126086179108039677::1701457832::1701457832::1::::<><>::
+17.png::CompressedTexture2D::5222478914357695289::1701457832::1701457832::1::::<><>::
+18.png::CompressedTexture2D::62958007386696972::1701457832::1701457832::1::::<><>::
+19.png::CompressedTexture2D::6070270154343505941::1701457832::1701457832::1::::<><>::
+20.png::CompressedTexture2D::7288249274551359719::1701457832::1701457832::1::::<><>::
+21.png::CompressedTexture2D::8692477203465531648::1701457832::1701457832::1::::<><>::
+22.png::CompressedTexture2D::3251160521055739727::1701457832::1701457832::1::::<><>::
+23.png::CompressedTexture2D::3423600861516641788::1701457832::1701457832::1::::<><>::
+24.png::CompressedTexture2D::3360275704154762231::1701457832::1701457832::1::::<><>::
+25.png::CompressedTexture2D::5861619272681539982::1701457832::1701457832::1::::<><>::
+26.png::CompressedTexture2D::6266954479669538380::1701457832::1701457832::1::::<><>::
+27.png::CompressedTexture2D::2172006793789372983::1701457832::1701457832::1::::<><>::
+28.png::CompressedTexture2D::2479301778362370113::1701457832::1701457832::1::::<><>::
+29.png::CompressedTexture2D::2258117387904900346::1701457832::1701457832::1::::<><>::
+30.png::CompressedTexture2D::6152503408521407893::1701457832::1701457832::1::::<><>::
+::res://Effects Pack 12/2/::1701457832
+1.png::CompressedTexture2D::674660717539907535::1701457832::1701457832::1::::<><>::
+2.png::CompressedTexture2D::2383351308105811756::1701457832::1701457832::1::::<><>::
+3.png::CompressedTexture2D::750691164360624044::1701457832::1701457832::1::::<><>::
+4.png::CompressedTexture2D::6717743792266196044::1701457832::1701457832::1::::<><>::
+5.png::CompressedTexture2D::33781909951148693::1701457832::1701457832::1::::<><>::
+6.png::CompressedTexture2D::1406042389219953529::1701457832::1701457832::1::::<><>::
+7.png::CompressedTexture2D::8512197007464360804::1701457832::1701457832::1::::<><>::
+8.png::CompressedTexture2D::2792651601300142915::1701457832::1701457832::1::::<><>::
+9.png::CompressedTexture2D::6010219135589413488::1701457832::1701457832::1::::<><>::
+10.png::CompressedTexture2D::51253869641154171::1701457832::1701457832::1::::<><>::
+11.png::CompressedTexture2D::5828960480199365642::1701457832::1701457832::1::::<><>::
+12.png::CompressedTexture2D::1103664948749473914::1701457832::1701457832::1::::<><>::
+13.png::CompressedTexture2D::6910117418977532469::1701457832::1701457832::1::::<><>::
+14.png::CompressedTexture2D::3476701192734477008::1701457832::1701457832::1::::<><>::
+15.png::CompressedTexture2D::8459033688107391080::1701457832::1701457832::1::::<><>::
+16.png::CompressedTexture2D::2290985042517419075::1701457832::1701457832::1::::<><>::
+17.png::CompressedTexture2D::1256774322903886075::1701457832::1701457832::1::::<><>::
+18.png::CompressedTexture2D::473731246879499668::1701457832::1701457832::1::::<><>::
+19.png::CompressedTexture2D::6301049536276648102::1701457832::1701457832::1::::<><>::
+20.png::CompressedTexture2D::7897691319938632410::1701457832::1701457832::1::::<><>::
+21.png::CompressedTexture2D::4070682973562206966::1701457832::1701457832::1::::<><>::
+22.png::CompressedTexture2D::3886835499382897773::1701457832::1701457832::1::::<><>::
+23.png::CompressedTexture2D::5978949380769745779::1701457832::1701457832::1::::<><>::
+24.png::CompressedTexture2D::6007092366204923448::1701457832::1701457832::1::::<><>::
+25.png::CompressedTexture2D::8537340639195089472::1701457832::1701457832::1::::<><>::
+26.png::CompressedTexture2D::2483934825445989404::1701457832::1701457832::1::::<><>::
+27.png::CompressedTexture2D::562121856643066649::1701457832::1701457832::1::::<><>::
+28.png::CompressedTexture2D::6890897454026514339::1701457832::1701457832::1::::<><>::
+29.png::CompressedTexture2D::4805998975689425487::1701457832::1701457832::1::::<><>::
+30.png::CompressedTexture2D::5684028222981681565::1701457832::1701457832::1::::<><>::
+::res://Effects Pack 12/3/::1701457832
+1.png::CompressedTexture2D::8169458365612524064::1701457832::1701457832::1::::<><>::
+2.png::CompressedTexture2D::8302275606801397845::1701457832::1701457832::1::::<><>::
+3.png::CompressedTexture2D::2067798132827131588::1701457832::1701457832::1::::<><>::
+4.png::CompressedTexture2D::8565616846796216653::1701457832::1701457832::1::::<><>::
+5.png::CompressedTexture2D::3242563036358166824::1701457832::1701457832::1::::<><>::
+6.png::CompressedTexture2D::5985073915717595531::1701457832::1701457832::1::::<><>::
+7.png::CompressedTexture2D::7594137491993892541::1701457832::1701457832::1::::<><>::
+8.png::CompressedTexture2D::7330359473645191212::1701457832::1701457832::1::::<><>::
+9.png::CompressedTexture2D::6539874449527665931::1701457832::1701457832::1::::<><>::
+10.png::CompressedTexture2D::1179337459603693054::1701457832::1701457832::1::::<><>::
+11.png::CompressedTexture2D::8692670139415340449::1701457832::1701457832::1::::<><>::
+12.png::CompressedTexture2D::6098236368264424955::1701457832::1701457832::1::::<><>::
+13.png::CompressedTexture2D::8229298926925692373::1701457832::1701457832::1::::<><>::
+14.png::CompressedTexture2D::148153441957743610::1701457832::1701457832::1::::<><>::
+15.png::CompressedTexture2D::2451239095485221559::1701457832::1701457832::1::::<><>::
+16.png::CompressedTexture2D::1152357857458713452::1701457832::1701457832::1::::<><>::
+17.png::CompressedTexture2D::5024104563743966480::1701457832::1701457832::1::::<><>::
+18.png::CompressedTexture2D::7091690068981396761::1701457832::1701457832::1::::<><>::
+19.png::CompressedTexture2D::6389766091026626194::1701457832::1701457832::1::::<><>::
+20.png::CompressedTexture2D::5914820245108436679::1701457832::1701457832::1::::<><>::
+21.png::CompressedTexture2D::5640057986659691186::1701457832::1701457832::1::::<><>::
+22.png::CompressedTexture2D::5225590413062623604::1701457832::1701457832::1::::<><>::
+23.png::CompressedTexture2D::3207045469518919246::1701457832::1701457832::1::::<><>::
+24.png::CompressedTexture2D::4471539087086526165::1701457832::1701457832::1::::<><>::
+25.png::CompressedTexture2D::7298938163092908886::1701457832::1701457832::1::::<><>::
+26.png::CompressedTexture2D::3109391750073463081::1701457832::1701457832::1::::<><>::
+27.png::CompressedTexture2D::2461899722029046194::1701457832::1701457832::1::::<><>::
+28.png::CompressedTexture2D::882310422130422792::1701457832::1701457832::1::::<><>::
+29.png::CompressedTexture2D::2719011751766518637::1701457832::1701457832::1::::<><>::
+30.png::CompressedTexture2D::2504929960910785264::1701457832::1701457832::1::::<><>::
+::res://gothicvania church/::1701457833
+::res://gothicvania church/assets/::1701457833
+::res://gothicvania church/assets/atlas/::1701457833
+atlas.json::JSON::-1::1701457833::0::1::::<><>::
+atlas.png::CompressedTexture2D::2916756834946843579::1701457833::1701457833::1::::<><>::
+::res://gothicvania church/assets/environment/::1701457833
+background.png::CompressedTexture2D::7086706491004973150::1701457833::1701457833::1::::<><>::
+columns.png::CompressedTexture2D::4707209746936414135::1701457833::1701457833::1::::<><>::
+tileset.png::CompressedTexture2D::4482812795828954352::1701457833::1701457833::1::::<><>::
+::res://gothicvania church/assets/images/::1701457833
+credits-text.png::CompressedTexture2D::4182373141978395115::1701457833::1701457833::1::::<><>::
+game-over.png::CompressedTexture2D::4126041341394362457::1701457833::1701457833::1::::<><>::
+instructions.png::CompressedTexture2D::2283169934110460884::1701457833::1701457833::1::::<><>::
+press-enter-text.png::CompressedTexture2D::710006126740717124::1701457833::1701457833::1::::<><>::
+title-screen.png::CompressedTexture2D::25828852728811792::1701457833::1701457833::1::::<><>::
+::res://gothicvania church/assets/map/::1701457833
+map.json::JSON::-1::1701457833::0::1::::<><>::
+::res://gothicvania church/assets/sounds/::1701457833
+attack.ogg::AudioStreamOggVorbis::7076048356757167120::1701457833::1701457833::1::::<><>::
+hurt.ogg::AudioStreamOggVorbis::5924515264939117810::1701457833::1701457833::1::::<><>::
+jump.ogg::AudioStreamOggVorbis::2429814318859585234::1701457833::1701457833::1::::<><>::
+kill.ogg::AudioStreamOggVorbis::119795135143376980::1701457833::1701457833::1::::<><>::
+Music-license.txt::TextFile::-1::1701457833::0::1::::<><>::
+ockaie_temple.ogg::AudioStreamOggVorbis::3824045572075440795::1701457833::1701457833::1::::<><>::
+::res://gothicvania church/entities/::1701457833
+::res://gothicvania church files/::1701457833
+public-license.txt::TextFile::-1::1701457833::0::1::::<><>::
+::res://gothicvania church files/ENVIRONMENT/::1701457833
+backgrounds.png::CompressedTexture2D::7648528504266734369::1701457833::1701457833::1::::<><>::
+column.png::CompressedTexture2D::7780727118584101747::1701457833::1701457833::1::::<><>::
+tileset.png::CompressedTexture2D::6234467278753721709::1701457833::1701457833::1::::<><>::
+title-screen.png::CompressedTexture2D::4219337846723673499::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/PSD/::1701457833
+::res://gothicvania church files/SPRITES/::1701457833
+::res://gothicvania church files/SPRITES/angel/::1701457833
+::res://gothicvania church files/SPRITES/angel/preview/::1701457833
+::res://gothicvania church files/SPRITES/angel/sprites/::1701457833
+::res://gothicvania church files/SPRITES/angel/sprites/angel-attack/::1701457833
+angel-attack-1.png::CompressedTexture2D::7139735987673531034::1701457833::1701457833::1::::<><>::
+angel-attack-2.png::CompressedTexture2D::337915601920895124::1701457833::1701457833::1::::<><>::
+angel-attack-3.png::CompressedTexture2D::4815383938348227367::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/angel/sprites/idle/::1701457833
+angel1.png::CompressedTexture2D::6450854308889936681::1701457833::1701457833::1::::<><>::
+angel2.png::CompressedTexture2D::1666986356000705213::1701457833::1701457833::1::::<><>::
+angel3.png::CompressedTexture2D::4559349857032525039::1701457833::1701457833::1::::<><>::
+angel4.png::CompressedTexture2D::407277456437671761::1701457833::1701457833::1::::<><>::
+angel5.png::CompressedTexture2D::8344017885298886827::1701457833::1701457833::1::::<><>::
+angel6.png::CompressedTexture2D::9086559002979893122::1701457833::1701457833::1::::<><>::
+angel7.png::CompressedTexture2D::1935040996991401991::1701457833::1701457833::1::::<><>::
+angel8.png::CompressedTexture2D::5141028178968165811::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/angel/spritesheet/::1701457833
+angel.json::JSON::-1::1701457833::0::1::::<><>::
+angel.png::CompressedTexture2D::6559854856314363770::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/burning-ghoul/::1701457833
+::res://gothicvania church files/SPRITES/burning-ghoul/sprites/::1701457833
+::res://gothicvania church files/SPRITES/burning-ghoul/sprites/v1/::1701457833
+burning-ghoul-1.png::CompressedTexture2D::8619160158467520529::1701457833::1701457833::1::::<><>::
+burning-ghoul-2.png::CompressedTexture2D::8167140513544131477::1701457833::1701457833::1::::<><>::
+burning-ghoul-3.png::CompressedTexture2D::3907979774749905666::1701457833::1701457833::1::::<><>::
+burning-ghoul-4.png::CompressedTexture2D::4062653695337352855::1701457833::1701457833::1::::<><>::
+burning-ghoul-5.png::CompressedTexture2D::3936558261482853324::1701457833::1701457833::1::::<><>::
+burning-ghoul-6.png::CompressedTexture2D::7071638293059410012::1701457833::1701457833::1::::<><>::
+burning-ghoul-7.png::CompressedTexture2D::4088786905484890330::1701457833::1701457833::1::::<><>::
+burning-ghoul-8.png::CompressedTexture2D::6302807057512666031::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/burning-ghoul/sprites/v2/::1701457833
+burning-ghoul1.png::CompressedTexture2D::1659751707100687196::1701457833::1701457833::1::::<><>::
+burning-ghoul2.png::CompressedTexture2D::2962592500368398682::1701457833::1701457833::1::::<><>::
+burning-ghoul3.png::CompressedTexture2D::3873845515598933410::1701457833::1701457833::1::::<><>::
+burning-ghoul4.png::CompressedTexture2D::8346446150811849034::1701457833::1701457833::1::::<><>::
+burning-ghoul5.png::CompressedTexture2D::678298139852365760::1701457833::1701457833::1::::<><>::
+burning-ghoul6.png::CompressedTexture2D::8793795170882309749::1701457833::1701457833::1::::<><>::
+burning-ghoul7.png::CompressedTexture2D::1783827361918190185::1701457833::1701457833::1::::<><>::
+burning-ghoul8.png::CompressedTexture2D::5676862782631939019::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/burning-ghoul/spritesheet/::1701457833
+::res://gothicvania church files/SPRITES/burning-ghoul/spritesheet/v1/::1701457833
+burning-ghoul.json::JSON::-1::1701457833::0::1::::<><>::
+burning-ghoul.png::CompressedTexture2D::1304827578646699910::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/burning-ghoul/spritesheet/v2/::1701457833
+burning-ghoul.json::JSON::-1::1701457833::0::1::::<><>::
+burning-ghoul.png::CompressedTexture2D::1339231303248019100::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/fx/::1701457833
+::res://gothicvania church files/SPRITES/fx/enemy-death/::1701457833
+::res://gothicvania church files/SPRITES/fx/enemy-death/enemy-death-sprites/::1701457833
+enemy-death1.png::CompressedTexture2D::3745289024209000308::1701457833::1701457833::1::::<><>::
+enemy-death2.png::CompressedTexture2D::2674543394167455691::1701457833::1701457833::1::::<><>::
+enemy-death3.png::CompressedTexture2D::1901569999058073986::1701457833::1701457833::1::::<><>::
+enemy-death4.png::CompressedTexture2D::5518704458331890889::1701457833::1701457833::1::::<><>::
+enemy-death5.png::CompressedTexture2D::4568406617794941812::1701457833::1701457833::1::::<><>::
+enemy-death6.png::CompressedTexture2D::141630856108230326::1701457833::1701457833::1::::<><>::
+enemy-death7.png::CompressedTexture2D::1852628025323063081::1701457833::1701457833::1::::<><>::
+enemy-death8.png::CompressedTexture2D::5538862120296125810::1701457833::1701457833::1::::<><>::
+enemy-death9.png::CompressedTexture2D::7761137488218353176::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/fx/enemy-death/enemy-death-spritesheet/::1701457833
+enemy-death.json::JSON::-1::1701457833::0::1::::<><>::
+enemy-death.png::CompressedTexture2D::6229850482291266477::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/fx/fireball/::1701457833
+::res://gothicvania church files/SPRITES/fx/fireball/fireball-sprites/::1701457833
+fireball1.png::CompressedTexture2D::634763649201587947::1701457833::1701457833::1::::<><>::
+fireball2.png::CompressedTexture2D::4030577196272388949::1701457833::1701457833::1::::<><>::
+fireball3.png::CompressedTexture2D::6198973673821179039::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/fx/fireball/fireball-spritesheet/::1701457833
+fireball.json::JSON::-1::1701457833::0::1::::<><>::
+fireball.png::CompressedTexture2D::2650837336160507562::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/player/::1701457833
+::res://gothicvania church files/SPRITES/player/previews/::1701457833
+::res://gothicvania church files/SPRITES/player/sprites/::1701457833
+crouch1.png::CompressedTexture2D::4673802306474305383::1701457833::1701457833::1::::<><>::
+crouch2.png::CompressedTexture2D::1234975121525066215::1701457833::1701457833::1::::<><>::
+crouch-kick1.png::CompressedTexture2D::7677828542812091055::1701457833::1701457833::1::::<><>::
+crouch-kick2.png::CompressedTexture2D::5077966242285413364::1701457833::1701457833::1::::<><>::
+crouch-kick3.png::CompressedTexture2D::6622043946477249023::1701457833::1701457833::1::::<><>::
+crouch-kick4.png::CompressedTexture2D::3926726708171203361::1701457833::1701457833::1::::<><>::
+crouch-kick5.png::CompressedTexture2D::899526873356855461::1701457833::1701457833::1::::<><>::
+fall1.png::CompressedTexture2D::4696168720173316944::1701457833::1701457833::1::::<><>::
+fall2.png::CompressedTexture2D::8542178062556754135::1701457833::1701457833::1::::<><>::
+flying-kick1.png::CompressedTexture2D::4493178582003639132::1701457833::1701457833::1::::<><>::
+flying-kick2.png::CompressedTexture2D::1893409686367009969::1701457833::1701457833::1::::<><>::
+hurt1.png::CompressedTexture2D::1498808081897629309::1701457833::1701457833::1::::<><>::
+hurt2.png::CompressedTexture2D::5780823510358567249::1701457833::1701457833::1::::<><>::
+idle1.png::CompressedTexture2D::3297635467175765893::1701457833::1701457833::1::::<><>::
+idle2.png::CompressedTexture2D::8841222234875947234::1701457833::1701457833::1::::<><>::
+idle3.png::CompressedTexture2D::359035936851411427::1701457833::1701457833::1::::<><>::
+idle4.png::CompressedTexture2D::2685613071553410132::1701457833::1701457833::1::::<><>::
+jump1.png::CompressedTexture2D::4604001947924128237::1701457833::1701457833::1::::<><>::
+jump2.png::CompressedTexture2D::8553940304739635022::1701457833::1701457833::1::::<><>::
+kick1.png::CompressedTexture2D::5134274668644553101::1701457833::1701457833::1::::<><>::
+kick2.png::CompressedTexture2D::5425392331263746679::1701457833::1701457833::1::::<><>::
+kick3.png::CompressedTexture2D::8234862537349188587::1701457833::1701457833::1::::<><>::
+kick4.png::CompressedTexture2D::6192088125674980203::1701457833::1701457833::1::::<><>::
+kick5.png::CompressedTexture2D::7812515164474013623::1701457833::1701457833::1::::<><>::
+punch1.png::CompressedTexture2D::2268959077027383494::1701457833::1701457833::1::::<><>::
+punch2.png::CompressedTexture2D::5734618057211001200::1701457833::1701457833::1::::<><>::
+punch3.png::CompressedTexture2D::8288183805805836096::1701457833::1701457833::1::::<><>::
+punch4.png::CompressedTexture2D::4142783050469232219::1701457833::1701457833::1::::<><>::
+punch5.png::CompressedTexture2D::1810296529388431959::1701457833::1701457833::1::::<><>::
+punch6.png::CompressedTexture2D::3657437384513500580::1701457833::1701457833::1::::<><>::
+walk1.png::CompressedTexture2D::3026132618475900334::1701457833::1701457833::1::::<><>::
+walk2.png::CompressedTexture2D::5460602146443073505::1701457833::1701457833::1::::<><>::
+walk3.png::CompressedTexture2D::2523238096110872880::1701457833::1701457833::1::::<><>::
+walk4.png::CompressedTexture2D::7713062799765180133::1701457833::1701457833::1::::<><>::
+walk5.png::CompressedTexture2D::3897959038753891807::1701457833::1701457833::1::::<><>::
+walk6.png::CompressedTexture2D::205355773153913863::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/player/spritesheet/::1701457833
+player.json::JSON::-1::1701457833::0::1::::<><>::
+player.png::CompressedTexture2D::7217940360996673631::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/wizard/::1701457833
+::res://gothicvania church files/SPRITES/wizard/fire-sprites/::1701457833
+fire1.png::CompressedTexture2D::6861572454979225009::1701457833::1701457833::1::::<><>::
+fire2.png::CompressedTexture2D::6005331360104800065::1701457833::1701457833::1::::<><>::
+fire3.png::CompressedTexture2D::1240554112651930147::1701457833::1701457833::1::::<><>::
+fire4.png::CompressedTexture2D::6725053192403407615::1701457833::1701457833::1::::<><>::
+fire5.png::CompressedTexture2D::4554498119988926557::1701457833::1701457833::1::::<><>::
+fire6.png::CompressedTexture2D::8500736490378551187::1701457833::1701457833::1::::<><>::
+fire7.png::CompressedTexture2D::7227602053555007625::1701457833::1701457833::1::::<><>::
+fire8.png::CompressedTexture2D::6666024115048519256::1701457833::1701457833::1::::<><>::
+fire9.png::CompressedTexture2D::3757843041728735979::1701457833::1701457833::1::::<><>::
+fire10.png::CompressedTexture2D::6023646960602286805::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/wizard/idle-sprites/::1701457833
+wizard-idle-1.png::CompressedTexture2D::5799064185387379002::1701457833::1701457833::1::::<><>::
+wizard-idle-2.png::CompressedTexture2D::2131519202225489129::1701457833::1701457833::1::::<><>::
+wizard-idle-3.png::CompressedTexture2D::467565838948189174::1701457833::1701457833::1::::<><>::
+wizard-idle-4.png::CompressedTexture2D::2008524236992387141::1701457833::1701457833::1::::<><>::
+wizard-idle-5.png::CompressedTexture2D::7196173330582518854::1701457833::1701457833::1::::<><>::
+::res://gothicvania church files/SPRITES/wizard/previews/::1701457833
+::res://gothicvania church files/SPRITES/wizard/spritesheet/::1701457833
+wizard.json::JSON::-1::1701457833::0::1::::<><>::
+wizard.png::CompressedTexture2D::7128250299998976989::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/::1701457833
+public-license.txt::TextFile::-1::1701457833::0::1::::<><>::
+::res://gothicvania patreon collection/demon-Files/::1701457833
+::res://gothicvania patreon collection/demon-Files/GIFS/::1701457833
+::res://gothicvania patreon collection/demon-Files/PNG/::1701457833
+breath-fire.png::CompressedTexture2D::4347924286686548711::1701457833::1701457833::1::::<><>::
+breath.png::CompressedTexture2D::8380273614693439137::1701457833::1701457833::1::::<><>::
+demon-attack-no-breath.png::CompressedTexture2D::5973422765741738006::1701457833::1701457833::1::::<><>::
+demon-attack.png::CompressedTexture2D::8082022626966553486::1701457833::1701457833::1::::<><>::
+demon-idle.png::CompressedTexture2D::2639155687522958380::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/demon-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Fire-Skull-Files/::1701457833
+::res://gothicvania patreon collection/Fire-Skull-Files/GIF/::1701457833
+::res://gothicvania patreon collection/Fire-Skull-Files/PNG/::1701457833
+fire-skull-no-fire.png::CompressedTexture2D::5580479260906548690::1701457833::1701457833::1::::<><>::
+fire-skull.png::CompressedTexture2D::5350474033393537805::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Fire-Skull-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Ghost-Files/::1701457833
+::res://gothicvania patreon collection/Ghost-Files/GIFS/::1701457833
+::res://gothicvania patreon collection/Ghost-Files/PNG/::1701457833
+ghost-appears.png::CompressedTexture2D::1687382588234124877::1701457833::1701457833::1::::<><>::
+ghost-idle.png::CompressedTexture2D::1724673595921375802::1701457833::1701457833::1::::<><>::
+ghost-shriek.png::CompressedTexture2D::1204706379913567334::1701457833::1701457833::1::::<><>::
+ghost-vanish.png::CompressedTexture2D::6475021656860010630::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Ghost-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Gothic-Castle-Files/::1701457833
+::res://gothicvania patreon collection/Gothic-Castle-Files/PNG/::1701457833
+gothic-castle-preview.png::CompressedTexture2D::5916550457107841715::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-Castle-Files/PNG/layers/::1701457833
+gothic-castle-background.png::CompressedTexture2D::2147581343842773716::1701457833::1701457833::1::::<><>::
+gothic-castle-tileset.png::CompressedTexture2D::6487907287031210482::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-Castle-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-Files/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-Files/GIFS/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-Files/PNG/::1701457833
+gothic-hero-attack.png::CompressedTexture2D::2247564775818392658::1701457833::1701457833::1::::<><>::
+gothic-hero-idle.png::CompressedTexture2D::8754657596986873971::1701457833::1701457833::1::::<><>::
+gothic-hero-jump.png::CompressedTexture2D::3341326077438491608::1701457833::1701457833::1::::<><>::
+gothic-hero-run.png::CompressedTexture2D::1696257182022816135::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-hero-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/GIFS/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/::1701457833
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/climb/::1701457833
+gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::5393412267593982973::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::4054286750168201803::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::4554112710930859161::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0003_Layer-4.png::CompressedTexture2D::7356784726049529921::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0004_Layer-5.png::CompressedTexture2D::9153429439597572833::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0005_Layer-6.png::CompressedTexture2D::6053974818960259282::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0006_Layer-7.png::CompressedTexture2D::987179124738346801::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/crouch/::1701457833
+gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::3924806980283372176::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::2583876277438018130::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::1649737774196858107::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/crouch-slash/::1701457833
+gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::5849586882689249371::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::9002379382371179503::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::3799158179400400004::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0003_Layer-4.png::CompressedTexture2D::1297510093919731447::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/hurt/::1701457833
+gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::7809876006374864636::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::982138707465433840::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::7805014043654825480::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/sprites/jump-attack/::1701457833
+gothic-hero-crouch-slash_0000_Layer-1.png::CompressedTexture2D::8723864228120335763::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0001_Layer-2.png::CompressedTexture2D::766160409914307448::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0002_Layer-3.png::CompressedTexture2D::1857322693353819991::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0003_Layer-4.png::CompressedTexture2D::7824929837382980315::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0004_Layer-5.png::CompressedTexture2D::515137876095593254::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch-slash_0005_Layer-6.png::CompressedTexture2D::3966528140564970831::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PNG/spritesheets/::1701457833
+gothic-hero-crouch-slash.png::CompressedTexture2D::8619507220131476391::1701457833::1701457833::1::::<><>::
+gothic-hero-crouch.png::CompressedTexture2D::6579782177440022638::1701457833::1701457833::1::::<><>::
+gothic-hero-hurt.png::CompressedTexture2D::6318068069623233836::1701457833::1701457833::1::::<><>::
+gothic-hero-jump-attack.png::CompressedTexture2D::5075710379698740354::1701457833::1701457833::1::::<><>::
+gothic-hero-jump-climb.png::CompressedTexture2D::2548923613785947424::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-hero-p2-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Gothic-Horror-Files/::1701457833
+::res://gothicvania patreon collection/Gothic-Horror-Files/PNG/::1701457833
+PREVIEW-gothic-horror.png::CompressedTexture2D::4247789765692416709::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-Horror-Files/PNG/layers/::1701457833
+clouds.png::CompressedTexture2D::437592930541179648::1701457833::1701457833::1::::<><>::
+tiles.png::CompressedTexture2D::7227657123404249691::1701457833::1701457833::1::::<><>::
+town.png::CompressedTexture2D::985339438437101261::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Gothic-Horror-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Hell-Beast-Files/::1701457833
+::res://gothicvania patreon collection/Hell-Beast-Files/GIF/::1701457833
+::res://gothicvania patreon collection/Hell-Beast-Files/GIF/with-stroke/::1701457833
+::res://gothicvania patreon collection/Hell-Beast-Files/GIF/without-stroke/::1701457833
+::res://gothicvania patreon collection/Hell-Beast-Files/PNG/::1701457833
+fire-ball.png::CompressedTexture2D::8488534213898165658::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Hell-Beast-Files/PNG/with-stroke/::1701457833
+hell-beast-breath.png::CompressedTexture2D::897906862499993334::1701457833::1701457833::1::::<><>::
+hell-beast-burn.png::CompressedTexture2D::4509899393876181149::1701457833::1701457833::1::::<><>::
+hell-beast-idle.png::CompressedTexture2D::8737834896059751468::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Hell-Beast-Files/PNG/without-stroke/::1701457833
+hell-beast-breath.png::CompressedTexture2D::8531665846298239855::1701457833::1701457833::1::::<><>::
+hell-beast-burn.png::CompressedTexture2D::3794001030614604930::1701457833::1701457833::1::::<><>::
+hell-beast-idle.png::CompressedTexture2D::7896692126340830332::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Hell-Beast-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Hell-Hound-Files/::1701457833
+get-more.jpg::CompressedTexture2D::3432188817701330252::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Hell-Hound-Files/GIFS/::1701457833
+::res://gothicvania patreon collection/Hell-Hound-Files/PNG/::1701457833
+hell-hound-idle.png::CompressedTexture2D::8086400683199234441::1701457833::1701457833::1::::<><>::
+hell-hound-jump.png::CompressedTexture2D::969483137984294714::1701457833::1701457833::1::::<><>::
+hell-hound-run.png::CompressedTexture2D::3132444460508307172::1701457833::1701457833::1::::<><>::
+hell-hound-walk.png::CompressedTexture2D::5678478668461852163::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Hell-Hound-Files/PSD/::1701457833
+::res://gothicvania patreon collection/night-town-background-files/::1701457833
+night-town-background-preview-LOW-RES.jpg::CompressedTexture2D::9026170855073581558::1701457833::1701457833::1::::<><>::
+night-town-background-previewx1.png::CompressedTexture2D::7199247155969915723::1701457833::1701457833::1::::<><>::
+night-town-background-previewx2.png::CompressedTexture2D::7424801860401792803::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/night-town-background-files/layers/::1701457833
+night-town-background-clouds.png::CompressedTexture2D::228291578820792620::1701457833::1701457833::1::::<><>::
+night-town-background-far-buildings.png::CompressedTexture2D::5727135323532422926::1701457833::1701457833::1::::<><>::
+night-town-background-forest.png::CompressedTexture2D::9094317551023566630::1701457833::1701457833::1::::<><>::
+night-town-background-mountains-lights.png::CompressedTexture2D::5202433733244394742::1701457833::1701457833::1::::<><>::
+night-town-background-mountains.png::CompressedTexture2D::2651062687024686988::1701457833::1701457833::1::::<><>::
+night-town-background-sky.png::CompressedTexture2D::639671979208907994::1701457833::1701457833::1::::<><>::
+night-town-background-town.png::CompressedTexture2D::4677557726439596756::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Nightmare-Files/::1701457833
+::res://gothicvania patreon collection/Nightmare-Files/GIFS/::1701457833
+::res://gothicvania patreon collection/Nightmare-Files/PNG/::1701457833
+nightmare-galloping.png::CompressedTexture2D::224178653081712950::1701457833::1701457833::1::::<><>::
+nightmare-idle.png::CompressedTexture2D::5577060015613464782::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Nightmare-Files/PSD/::1701457833
+::res://gothicvania patreon collection/Old-dark-Castle-tileset-Files/::1701457833
+::res://gothicvania patreon collection/Old-dark-Castle-tileset-Files/PNG/::1701457833
+old-dark-castle-interior-background.png::CompressedTexture2D::2723397606690532802::1701457833::1701457833::1::::<><>::
+old-dark-castle-interior-tileset.png::CompressedTexture2D::9195302883361634940::1701457833::1701457833::1::::<><>::
+preview-old-dark-castle-interior-tileset.png::CompressedTexture2D::1751754730163110183::1701457833::1701457833::1::::<><>::
+::res://gothicvania patreon collection/Old-dark-Castle-tileset-Files/PSD/::1701457833
+::res://gothicvania patreon collection/wolf-runing-cycle/::1701457833
+::res://gothicvania patreon collection/wolf-runing-cycle/previews/::1701457833
+::res://gothicvania patreon collection/wolf-runing-cycle/PSD/::1701457833
+::res://gothicvania patreon collection/wolf-runing-cycle/sprites/::1701457833
+wolf-runing-cycle-skin.png::CompressedTexture2D::8282551713573496252::1701457833::1701457833::1::::<><>::
+wolf-runing-cycle.png::CompressedTexture2D::4159482054016863900::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/::1701457833
+public-license.txt::TextFile::-1::1701457833::0::1::::<><>::
+::res://gothicvania-cemetery-files/demo/::1701457833
+::res://gothicvania-cemetery-files/demo/assets/::1701457833
+::res://gothicvania-cemetery-files/demo/assets/atlas/::1701457833
+atlas-props.json::JSON::-1::1701457833::0::1::::<><>::
+atlas-props.png::CompressedTexture2D::3724580968371603395::1701457833::1701457833::1::::<><>::
+atlas.json::JSON::-1::1701457833::0::1::::<><>::
+atlas.png::CompressedTexture2D::1544176592399356943::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/demo/assets/environment/::1701457833
+bg-graveyard.png::CompressedTexture2D::1147957397593740431::1701457833::1701457833::1::::<><>::
+bg-moon.png::CompressedTexture2D::3455782330469363123::1701457833::1701457833::1::::<><>::
+bg-mountains.png::CompressedTexture2D::4005558615120905053::1701457833::1701457833::1::::<><>::
+objects.png::CompressedTexture2D::8165518164897335091::1701457833::1701457833::1::::<><>::
+tileset.png::CompressedTexture2D::6951337136075142772::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/demo/assets/maps/::1701457833
+map.json::JSON::-1::1701457833::0::1::::<><>::
+::res://gothicvania-cemetery-files/demo/assets/sounds/::1701457833
+attack.ogg::AudioStreamOggVorbis::4886817418554482138::1701457833::1701457833::1::::<><>::
+hurt.ogg::AudioStreamOggVorbis::8493885798083511153::1701457833::1701457833::1::::<><>::
+jump.ogg::AudioStreamOggVorbis::2355388298946905001::1701457833::1701457833::1::::<><>::
+kill.ogg::AudioStreamOggVorbis::7798925340710692595::1701457833::1701457833::1::::<><>::
+rise.ogg::AudioStreamOggVorbis::1858626131060245309::1701457833::1701457833::1::::<><>::
+sci_fi_platformer04_main_loop.ogg::AudioStreamOggVorbis::9086141676555286238::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/demo/assets/sprites/::1701457833
+credits-text.png::CompressedTexture2D::8102481371198234016::1701457833::1701457833::1::::<><>::
+game-over.png::CompressedTexture2D::4490485448919313566::1701457833::1701457833::1::::<><>::
+instructions.png::CompressedTexture2D::7114280891073998618::1701457833::1701457833::1::::<><>::
+loading.png::CompressedTexture2D::2903114181949674315::1701457833::1701457833::1::::<><>::
+press-enter-text.png::CompressedTexture2D::7571651739884565806::1701457833::1701457833::1::::<><>::
+title-screen.png::CompressedTexture2D::4198523907229939621::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/GIFS/::1701457833
+::res://gothicvania-cemetery-files/GIFS/ghost/::1701457833
+::res://gothicvania-cemetery-files/GIFS/hell-gato/::1701457833
+::res://gothicvania-cemetery-files/GIFS/hero/::1701457833
+::res://gothicvania-cemetery-files/GIFS/misc/::1701457833
+::res://gothicvania-cemetery-files/GIFS/skeleton/::1701457833
+::res://gothicvania-cemetery-files/PNG/::1701457833
+::res://gothicvania-cemetery-files/PNG/Environment/::1701457833
+background.png::CompressedTexture2D::7417169458020716157::1701457833::1701457833::1::::<><>::
+graveyard.png::CompressedTexture2D::3529611725989716858::1701457833::1701457833::1::::<><>::
+hell.png::CompressedTexture2D::6107619954606928587::1701457833::1701457833::1::::<><>::
+mountains.png::CompressedTexture2D::154374006199467059::1701457833::1701457833::1::::<><>::
+objects.png::CompressedTexture2D::1911296390719497571::1701457833::1701457833::1::::<><>::
+tileset-sliced.png::CompressedTexture2D::6282068352827381504::1701457833::1701457833::1::::<><>::
+tileset.png::CompressedTexture2D::6945550230141352848::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Environment/sliced-objects/::1701457833
+bush-large.png::CompressedTexture2D::6596811214463693424::1701457833::1701457833::1::::<><>::
+bush-small.png::CompressedTexture2D::4929966316410670355::1701457833::1701457833::1::::<><>::
+statue.png::CompressedTexture2D::8920494306238304481::1701457833::1701457833::1::::<><>::
+stone-1.png::CompressedTexture2D::6778662333964529259::1701457833::1701457833::1::::<><>::
+stone-2.png::CompressedTexture2D::8625515395044649942::1701457833::1701457833::1::::<><>::
+stone-3.png::CompressedTexture2D::4479339475389165086::1701457833::1701457833::1::::<><>::
+stone-4.png::CompressedTexture2D::1213989169720435866::1701457833::1701457833::1::::<><>::
+tree-1.png::CompressedTexture2D::1138513906231485623::1701457833::1701457833::1::::<><>::
+tree-2.png::CompressedTexture2D::7147264836914051856::1701457833::1701457833::1::::<><>::
+tree-3.png::CompressedTexture2D::5364313404755886219::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/::1701457833
+::res://gothicvania-cemetery-files/PNG/Sprites/enemy-death/::1701457833
+enemy-death-1.png::CompressedTexture2D::2572866655354641096::1701457833::1701457833::1::::<><>::
+enemy-death-2.png::CompressedTexture2D::973743194353801904::1701457833::1701457833::1::::<><>::
+enemy-death-3.png::CompressedTexture2D::1052016053254665525::1701457833::1701457833::1::::<><>::
+enemy-death-4.png::CompressedTexture2D::3609717649527965380::1701457833::1701457833::1::::<><>::
+enemy-death-5.png::CompressedTexture2D::828306761238356440::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/ghost/::1701457833
+ghost-1.png::CompressedTexture2D::4900723420399828326::1701457833::1701457833::1::::<><>::
+ghost-2.png::CompressedTexture2D::3959610134866977909::1701457833::1701457833::1::::<><>::
+ghost-3.png::CompressedTexture2D::8163963952165344566::1701457833::1701457833::1::::<><>::
+ghost-4.png::CompressedTexture2D::759970265227266927::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/ghost-halo/::1701457833
+ghost-halo-1.png::CompressedTexture2D::1931711027382675652::1701457833::1701457833::1::::<><>::
+ghost-halo-2.png::CompressedTexture2D::4267093177548412152::1701457833::1701457833::1::::<><>::
+ghost-halo-3.png::CompressedTexture2D::1305556624530282864::1701457833::1701457833::1::::<><>::
+ghost-halo-4.png::CompressedTexture2D::3890827247604806598::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hell-gato/::1701457833
+hell-gato-1.png::CompressedTexture2D::424237941491013705::1701457833::1701457833::1::::<><>::
+hell-gato-2.png::CompressedTexture2D::3116282806233876661::1701457833::1701457833::1::::<><>::
+hell-gato-3.png::CompressedTexture2D::5155174596384835421::1701457833::1701457833::1::::<><>::
+hell-gato-4.png::CompressedTexture2D::1085591841926427481::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/::1701457833
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-attack/::1701457833
+hero-attack-1.png::CompressedTexture2D::2863380491491247154::1701457833::1701457833::1::::<><>::
+hero-attack-2.png::CompressedTexture2D::2023368100422998834::1701457833::1701457833::1::::<><>::
+hero-attack-3.png::CompressedTexture2D::358528817933016093::1701457833::1701457833::1::::<><>::
+hero-attack-4.png::CompressedTexture2D::7962818040926056057::1701457833::1701457833::1::::<><>::
+hero-attack-5.png::CompressedTexture2D::2683136231774129342::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-crouch/::1701457833
+hero-crouch.png::CompressedTexture2D::1706876142383328861::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-hurt/::1701457833
+hero-hurt.png::CompressedTexture2D::631834082600262463::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-idle/::1701457833
+hero-idle-1.png::CompressedTexture2D::8995623797127130356::1701457833::1701457833::1::::<><>::
+hero-idle-2.png::CompressedTexture2D::3577284776404143045::1701457833::1701457833::1::::<><>::
+hero-idle-3.png::CompressedTexture2D::9220589343857093815::1701457833::1701457833::1::::<><>::
+hero-idle-4.png::CompressedTexture2D::797265350182123853::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-jump/::1701457833
+hero-jump-1.png::CompressedTexture2D::8475336856706379791::1701457833::1701457833::1::::<><>::
+hero-jump-2.png::CompressedTexture2D::5438266549181545821::1701457833::1701457833::1::::<><>::
+hero-jump-3.png::CompressedTexture2D::8494697703228604008::1701457833::1701457833::1::::<><>::
+hero-jump-4.png::CompressedTexture2D::6426232993430403402::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/hero-run/::1701457833
+hero-run-1.png::CompressedTexture2D::3318985042776706678::1701457833::1701457833::1::::<><>::
+hero-run-2.png::CompressedTexture2D::2885588892064255018::1701457833::1701457833::1::::<><>::
+hero-run-3.png::CompressedTexture2D::7597057941181058423::1701457833::1701457833::1::::<><>::
+hero-run-4.png::CompressedTexture2D::6808400416784628378::1701457833::1701457833::1::::<><>::
+hero-run-5.png::CompressedTexture2D::1123102675193763865::1701457833::1701457833::1::::<><>::
+hero-run-6.png::CompressedTexture2D::1511144171701787942::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/hero/previews/::1701457833
+::res://gothicvania-cemetery-files/PNG/Sprites/skeleton/::1701457833
+skeleton-1.png::CompressedTexture2D::6244075897266102325::1701457833::1701457833::1::::<><>::
+skeleton-2.png::CompressedTexture2D::8851922248591981437::1701457833::1701457833::1::::<><>::
+skeleton-3.png::CompressedTexture2D::3604736787955038582::1701457833::1701457833::1::::<><>::
+skeleton-4.png::CompressedTexture2D::1314789000416173621::1701457833::1701457833::1::::<><>::
+skeleton-5.png::CompressedTexture2D::287801802796747178::1701457833::1701457833::1::::<><>::
+skeleton-6.png::CompressedTexture2D::205258675949488172::1701457833::1701457833::1::::<><>::
+skeleton-7.png::CompressedTexture2D::9090210331581909305::1701457833::1701457833::1::::<><>::
+skeleton-8.png::CompressedTexture2D::4607309864700127493::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/skeleton-clothed/::1701457833
+skeleton-clothed-1.png::CompressedTexture2D::3499723378571632876::1701457833::1701457833::1::::<><>::
+skeleton-clothed-2.png::CompressedTexture2D::4784199427694090265::1701457833::1701457833::1::::<><>::
+skeleton-clothed-3.png::CompressedTexture2D::9080137095652961624::1701457833::1701457833::1::::<><>::
+skeleton-clothed-4.png::CompressedTexture2D::7223955073897289351::1701457833::1701457833::1::::<><>::
+skeleton-clothed-5.png::CompressedTexture2D::2066371307949632456::1701457833::1701457833::1::::<><>::
+skeleton-clothed-6.png::CompressedTexture2D::1726327712072167049::1701457833::1701457833::1::::<><>::
+skeleton-clothed-7.png::CompressedTexture2D::1578204196727357273::1701457833::1701457833::1::::<><>::
+skeleton-clothed-8.png::CompressedTexture2D::3928543844838773547::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/skeleton-rise/::1701457833
+skeleton-rise-1.png::CompressedTexture2D::5008686052350580075::1701457833::1701457833::1::::<><>::
+skeleton-rise-2.png::CompressedTexture2D::6760776805349364221::1701457833::1701457833::1::::<><>::
+skeleton-rise-3.png::CompressedTexture2D::7165656739205418901::1701457833::1701457833::1::::<><>::
+skeleton-rise-4.png::CompressedTexture2D::2280272780049124449::1701457833::1701457833::1::::<><>::
+skeleton-rise-5.png::CompressedTexture2D::1047371475649485718::1701457833::1701457833::1::::<><>::
+skeleton-rise-6.png::CompressedTexture2D::1510926986026203876::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PNG/Sprites/skeleton-rise-clothed/::1701457833
+skeleton-rise-clothed-1.png::CompressedTexture2D::3737989073225766594::1701457833::1701457833::1::::<><>::
+skeleton-rise-clothed-2.png::CompressedTexture2D::5743529327445424923::1701457833::1701457833::1::::<><>::
+skeleton-rise-clothed-3.png::CompressedTexture2D::3179764776793720465::1701457833::1701457833::1::::<><>::
+skeleton-rise-clothed-4.png::CompressedTexture2D::8419487221726511430::1701457833::1701457833::1::::<><>::
+skeleton-rise-clothed-5.png::CompressedTexture2D::9152104255502157303::1701457833::1701457833::1::::<><>::
+skeleton-rise-clothed-6.png::CompressedTexture2D::2970404819490617459::1701457833::1701457833::1::::<><>::
+::res://gothicvania-cemetery-files/PSD/::1701457833
+::res://gothicvania-cemetery-files/PSD/environment/::1701457833
+::res://gothicvania-cemetery-files/PSD/misc/::1701457833
+::res://gothicvania-cemetery-files/PSD/sprites/::1701457833
+::res://gothicvania-cemetery-files/PSD/sprites/hero/::1701457833
+::res://GUI/::1701458029
+hearts_container.gd::GDScript::-1::1701457832::0::1::::<>HBoxContainer<>::
+hearts_container.tscn::PackedScene::1393140079890615247::1701457832::0::1::::<><>::res://GUI/hearts_container.gd
+heart_gui.gd::GDScript::-1::1701458029::0::1::::<>Panel<>::
+heart_gui.tscn::PackedScene::5940936192325018927::1701457832::0::1::::<><>::uid://djwayg0tm7luc::::res://HUD/Heart.png<>res://GUI/heart_gui.gd
+::res://HUD/::1701457832
+Heart.png::CompressedTexture2D::7836421168105418678::1701457832::1701457832::1::::<><>::
+::res://Player/::1701457832
+monk.gd::GDScript::-1::1701457832::0::1::::Monk<>CharacterBody2D<>::
+::res://Terrible Knight Files/::1701457833
+Battle Encounter.ogg::AudioStreamOggVorbis::8022697002640430885::1701457832::1701457832::1::::<><>::
+public-license.txt::TextFile::-1::1701457833::0::1::::<><>::
+::res://Terrible Knight Files/ase/::1701457833
+::res://Terrible Knight Files/ase/Enemies/::1701457833
+death-lamp.png::CompressedTexture2D::5135821893491188389::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/ase/fx/::1701457833
+::res://Terrible Knight Files/Evironment/::1701457832
+tileset.png::CompressedTexture2D::1258813664571156472::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Evironment/HauntedForest/::1701457832
+back-tileset.png::CompressedTexture2D::1968835399638503451::1701457832::1701457832::1::::<><>::
+back.png::CompressedTexture2D::9129525994004315372::1701457832::1701457832::1::::<><>::
+middle.png::CompressedTexture2D::4428576135758849353::1701457832::1701457832::1::::<><>::
+props.png::CompressedTexture2D::6339458352481710680::1701457832::1701457832::1::::<><>::
+tileset.png::CompressedTexture2D::7207637917644644490::1701457832::1701457832::1::::<><>::
+water-tileset.png::CompressedTexture2D::7431645969099400604::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Evironment/HauntedForest/Props/::1701457832
+pillars.png::CompressedTexture2D::7937515419435606896::1701457832::1701457832::1::::<><>::
+tree-2.png::CompressedTexture2D::2947194287414608619::1701457832::1701457832::1::::<><>::
+tree.png::CompressedTexture2D::4230503402815102268::1701457832::1701457832::1::::<><>::
+woods.png::CompressedTexture2D::5515010015539238044::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/More assets/::1701457832
+tree-2.png::CompressedTexture2D::9035248747197286934::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/More assets/EnemyDeath/::1701457832
+enemy-death1.png::CompressedTexture2D::8666085633475421895::1701457832::1701457832::1::::<><>::
+enemy-death2.png::CompressedTexture2D::4347941161833127332::1701457832::1701457832::1::::<><>::
+enemy-death3.png::CompressedTexture2D::3059511043697421583::1701457832::1701457832::1::::<><>::
+enemy-death4.png::CompressedTexture2D::6698431265384848646::1701457832::1701457832::1::::<><>::
+enemy-death5.png::CompressedTexture2D::1404954806316813472::1701457832::1701457832::1::::<><>::
+enemy-death6.png::CompressedTexture2D::5883696482492745965::1701457832::1701457832::1::::<><>::
+enemy-death7.png::CompressedTexture2D::6054602899825807273::1701457832::1701457832::1::::<><>::
+enemy-death8.png::CompressedTexture2D::8577910227944800884::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/More assets/Hit/::1701457832
+hit1.png::CompressedTexture2D::4881974042258472171::1701457832::1701457832::1::::<><>::
+hit2.png::CompressedTexture2D::9164262355806515871::1701457832::1701457832::1::::<><>::
+hit3.png::CompressedTexture2D::4883992317073945892::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Previews/::1701457832
+::res://Terrible Knight Files/Previews/crow/::1701457832
+::res://Terrible Knight Files/Previews/Deathlamp/::1701457832
+::res://Terrible Knight Files/Previews/Flying-Eye-Demon/::1701457832
+::res://Terrible Knight Files/Previews/meerman/::1701457832
+::res://Terrible Knight Files/Previews/mutant-toad/::1701457832
+::res://Terrible Knight Files/Previews/Ogre/::1701457832
+::res://Terrible Knight Files/Previews/Player/::1701457832
+::res://Terrible Knight Files/Previews/WereWolf/::1701457832
+::res://Terrible Knight Files/Sprites/::1701457833
+::res://Terrible Knight Files/Sprites/crow/::1701457833
+::res://Terrible Knight Files/Sprites/crow/fly/::1701457832
+crow-fly1.png::CompressedTexture2D::8191697343011798879::1701457832::1701457832::1::::<><>::
+crow-fly2.png::CompressedTexture2D::9167816033841311276::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/crow/front/::1701457832
+crow-front1.png::CompressedTexture2D::1340908364669807778::1701457832::1701457832::1::::<><>::
+crow-front2.png::CompressedTexture2D::7938491270114081751::1701457832::1701457832::1::::<><>::
+crow-front3.png::CompressedTexture2D::8488187545761466842::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/crow/idle/::1701457833
+crow-idle1.png::CompressedTexture2D::7806646650006825958::1701457833::1701457833::1::::<><>::
+crow-idle2.png::CompressedTexture2D::5062830375512701193::1701457833::1701457833::1::::<><>::
+crow-idle3.png::CompressedTexture2D::7438435252007955425::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/death/::1701457833
+death-walk1.png::CompressedTexture2D::9023695594166789309::1701457833::1701457833::1::::<><>::
+death-walk2.png::CompressedTexture2D::2752821103489365249::1701457833::1701457833::1::::<><>::
+death-walk3.png::CompressedTexture2D::5195385417471282899::1701457833::1701457833::1::::<><>::
+death-walk4.png::CompressedTexture2D::8730175955133708565::1701457833::1701457833::1::::<><>::
+death-walk5.png::CompressedTexture2D::2750776501341255186::1701457833::1701457833::1::::<><>::
+death-walk6.png::CompressedTexture2D::6527178718511237992::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/death-lamp/::1701457833
+::res://Terrible Knight Files/Sprites/death-lamp/rise/::1701457833
+death-lamp1.png::CompressedTexture2D::9035467982600066633::1701457833::1701457833::1::::<><>::
+death-lamp2.png::CompressedTexture2D::1383415657009546479::1701457833::1701457833::1::::<><>::
+death-lamp3.png::CompressedTexture2D::447016965419178659::1701457833::1701457833::1::::<><>::
+death-lamp4.png::CompressedTexture2D::7039558568648399551::1701457833::1701457833::1::::<><>::
+death-lamp5.png::CompressedTexture2D::6056595532349796093::1701457833::1701457833::1::::<><>::
+death-lamp6.png::CompressedTexture2D::4380652752972524303::1701457833::1701457833::1::::<><>::
+death-lamp7.png::CompressedTexture2D::5055544200271306840::1701457833::1701457833::1::::<><>::
+death-lamp8.png::CompressedTexture2D::1826230237604607355::1701457833::1701457833::1::::<><>::
+death-lamp9.png::CompressedTexture2D::756387280801332009::1701457833::1701457833::1::::<><>::
+death-lamp10.png::CompressedTexture2D::6168695780163121395::1701457833::1701457833::1::::<><>::
+death-lamp11.png::CompressedTexture2D::1713847290689506245::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/death-lamp/walk/::1701457833
+death-lamp-walk1.png::CompressedTexture2D::3219001313033778543::1701457833::1701457833::1::::<><>::
+death-lamp-walk2.png::CompressedTexture2D::6451675901639052341::1701457833::1701457833::1::::<><>::
+death-lamp-walk3.png::CompressedTexture2D::6686265365688116066::1701457833::1701457833::1::::<><>::
+death-lamp-walk4.png::CompressedTexture2D::6378599564085882107::1701457833::1701457833::1::::<><>::
+death-lamp-walk5.png::CompressedTexture2D::5532011659701325982::1701457833::1701457833::1::::<><>::
+death-lamp-walk6.png::CompressedTexture2D::8746167776979329333::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/flying-eye-demon/::1701457833
+flying-eye-demon1.png::CompressedTexture2D::6864464232986086800::1701457833::1701457833::1::::<><>::
+flying-eye-demon2.png::CompressedTexture2D::8533057908521465046::1701457833::1701457833::1::::<><>::
+flying-eye-demon3.png::CompressedTexture2D::135734629266470816::1701457833::1701457833::1::::<><>::
+flying-eye-demon4.png::CompressedTexture2D::7783841482444319796::1701457833::1701457833::1::::<><>::
+flying-eye-demon5.png::CompressedTexture2D::9082520314954137981::1701457833::1701457833::1::::<><>::
+flying-eye-demon6.png::CompressedTexture2D::5067655286100734176::1701457833::1701457833::1::::<><>::
+flying-eye-demon7.png::CompressedTexture2D::2586184873826415448::1701457833::1701457833::1::::<><>::
+flying-eye-demon8.png::CompressedTexture2D::8244757178591657438::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/meerman/::1701457833
+meerman1.png::CompressedTexture2D::3203508726961353205::1701457833::1701457833::1::::<><>::
+meerman2.png::CompressedTexture2D::4705848883884565137::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/mutant-toad/::1701457833
+::res://Terrible Knight Files/Sprites/mutant-toad/attack/::1701457833
+mutant-toad-attack1.png::CompressedTexture2D::624728655076946495::1701457833::1701457833::1::::<><>::
+mutant-toad-attack2.png::CompressedTexture2D::4645972380611018616::1701457833::1701457833::1::::<><>::
+mutant-toad-attack3.png::CompressedTexture2D::5975560368073421479::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/mutant-toad/idle/::1701457833
+mutant-toad-idle1.png::CompressedTexture2D::6585465269421145065::1701457833::1701457833::1::::<><>::
+mutant-toad-idle2.png::CompressedTexture2D::57368977941359643::1701457833::1701457833::1::::<><>::
+mutant-toad-idle3.png::CompressedTexture2D::914852239086414289::1701457833::1701457833::1::::<><>::
+mutant-toad-idle4.png::CompressedTexture2D::8130160319444202952::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/mutant-toad/jump/::1701457833
+mutant-toad-jump1.png::CompressedTexture2D::5130882549507289355::1701457833::1701457833::1::::<><>::
+mutant-toad-jump2.png::CompressedTexture2D::9018464967014016497::1701457833::1701457833::1::::<><>::
+mutant-toad-jump3.png::CompressedTexture2D::2316679528051704335::1701457833::1701457833::1::::<><>::
+mutant-toad-jump4.png::CompressedTexture2D::6189161000552358353::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/Ogre/::1701457832
+::res://Terrible Knight Files/Sprites/Ogre/Attack/::1701457832
+ogre-attack1.png::CompressedTexture2D::5266307539614230158::1701457832::1701457832::1::::<><>::
+ogre-attack2.png::CompressedTexture2D::2806454114886813753::1701457832::1701457832::1::::<><>::
+ogre-attack3.png::CompressedTexture2D::5509486118374198683::1701457832::1701457832::1::::<><>::
+ogre-attack4.png::CompressedTexture2D::306812636257632639::1701457832::1701457832::1::::<><>::
+ogre-attack5.png::CompressedTexture2D::4660940136281165608::1701457832::1701457832::1::::<><>::
+ogre-attack6.png::CompressedTexture2D::2419282755618138859::1701457832::1701457832::1::::<><>::
+ogre-attack7.png::CompressedTexture2D::4598621354411856675::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Ogre/Idle/::1701457832
+ogre-idle1.png::CompressedTexture2D::1624456939758172572::1701457832::1701457832::1::::<><>::
+ogre-idle2.png::CompressedTexture2D::2576221654337322876::1701457832::1701457832::1::::<><>::
+ogre-idle3.png::CompressedTexture2D::3696096601045379332::1701457832::1701457832::1::::<><>::
+ogre-idle4.png::CompressedTexture2D::3588207814867984279::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Ogre/idle-unarmed/::1701457832
+ogre-idle-unarmed1.png::CompressedTexture2D::3860983673554840336::1701457832::1701457832::1::::<><>::
+ogre-idle-unarmed2.png::CompressedTexture2D::4410916908372764309::1701457832::1701457832::1::::<><>::
+ogre-idle-unarmed3.png::CompressedTexture2D::384829526543466234::1701457832::1701457832::1::::<><>::
+ogre-idle-unarmed4.png::CompressedTexture2D::3913752125653534486::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Ogre/walk/::1701457832
+ogre-walk1.png::CompressedTexture2D::3433643361708626821::1701457832::1701457832::1::::<><>::
+ogre-walk2.png::CompressedTexture2D::8854995672982723992::1701457832::1701457832::1::::<><>::
+ogre-walk3.png::CompressedTexture2D::1273739915111888080::1701457832::1701457832::1::::<><>::
+ogre-walk4.png::CompressedTexture2D::7857689115248672321::1701457832::1701457832::1::::<><>::
+ogre-walk5.png::CompressedTexture2D::7894049646064828647::1701457832::1701457832::1::::<><>::
+ogre-walk6.png::CompressedTexture2D::2352795599444874615::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Ogre/walk-unarmed/::1701457832
+ogre-walk-unarmed1.png::CompressedTexture2D::2610793642410804710::1701457832::1701457832::1::::<><>::
+ogre-walk-unarmed2.png::CompressedTexture2D::3481561077591012731::1701457832::1701457832::1::::<><>::
+ogre-walk-unarmed3.png::CompressedTexture2D::1505323780789420656::1701457832::1701457832::1::::<><>::
+ogre-walk-unarmed4.png::CompressedTexture2D::3306173806394463327::1701457832::1701457832::1::::<><>::
+ogre-walk-unarmed5.png::CompressedTexture2D::3515869873064060962::1701457832::1701457832::1::::<><>::
+ogre-walk-unarmed6.png::CompressedTexture2D::5490227624413412943::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/::1701457832
+::res://Terrible Knight Files/Sprites/Player/attack-crouch/::1701457832
+attack-crouch1.png::CompressedTexture2D::8556228684904170453::1701457832::1701457832::1::::<><>::
+attack-crouch2.png::CompressedTexture2D::8836581479617076986::1701457832::1701457832::1::::<><>::
+attack-crouch3.png::CompressedTexture2D::7135271344927110529::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/attack-side/::1701457832
+attack-side-export1.png::CompressedTexture2D::5710201181931541486::1701457832::1701457832::1::::<><>::
+attack-side-export2.png::CompressedTexture2D::7349477699059129130::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/attack-up/::1701457832
+attack-up-export1.png::CompressedTexture2D::5210321447354219991::1701457832::1701457832::1::::<><>::
+attack-up-export2.png::CompressedTexture2D::4218627785299565343::1701457832::1701457832::1::::<><>::
+attack-up-export3.png::CompressedTexture2D::1467003783109602221::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/crouch/::1701457832
+crouch-export1.png::CompressedTexture2D::273471794359042579::1701457832::1701457832::1::::<><>::
+crouch-export2.png::CompressedTexture2D::3814208729007982782::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/idle/::1701457832
+idle-export1.png::CompressedTexture2D::3685839712802986367::1701457832::1701457832::1::::<><>::
+idle-export2.png::CompressedTexture2D::4689001934996212308::1701457832::1701457832::1::::<><>::
+idle-export3.png::CompressedTexture2D::4644650876169415391::1701457832::1701457832::1::::<><>::
+idle-export4.png::CompressedTexture2D::650274953519466925::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/jump/::1701457832
+jump-export1.png::CompressedTexture2D::3731425023083231754::1701457832::1701457832::1::::<><>::
+jump-export2.png::CompressedTexture2D::6770623879673728365::1701457832::1701457832::1::::<><>::
+jump-export3.png::CompressedTexture2D::878745647418477126::1701457832::1701457832::1::::<><>::
+jump-export4.png::CompressedTexture2D::1303433483282925406::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/jump-attack/::1701457832
+jump-attack-export1.png::CompressedTexture2D::7310819131281750722::1701457832::1701457832::1::::<><>::
+jump-attack-export2.png::CompressedTexture2D::2562008052722261365::1701457832::1701457832::1::::<><>::
+jump-attack-export3.png::CompressedTexture2D::5937111289270762600::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Player/run/::1701457832
+run-export1.png::CompressedTexture2D::2980492312161897063::1701457832::1701457832::1::::<><>::
+run-export2.png::CompressedTexture2D::8967424799349539714::1701457832::1701457832::1::::<><>::
+run-export3.png::CompressedTexture2D::6790755165289433821::1701457832::1701457832::1::::<><>::
+run-export4.png::CompressedTexture2D::3381436173681168837::1701457832::1701457832::1::::<><>::
+run-export5.png::CompressedTexture2D::1417457456231693683::1701457832::1701457832::1::::<><>::
+run-export6.png::CompressedTexture2D::2942460484578354513::1701457832::1701457832::1::::<><>::
+run-export7.png::CompressedTexture2D::2662822474267553706::1701457832::1701457832::1::::<><>::
+run-export8.png::CompressedTexture2D::8327555821830259223::1701457832::1701457832::1::::<><>::
+run-export9.png::CompressedTexture2D::7221866533100647768::1701457832::1701457832::1::::<><>::
+run-export10.png::CompressedTexture2D::2016097081686239030::1701457832::1701457832::1::::<><>::
+run-export11.png::CompressedTexture2D::5190963775029632771::1701457832::1701457832::1::::<><>::
+run-export12.png::CompressedTexture2D::8347667945509026914::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/Projectiles/::1701457832
+dagger.png::CompressedTexture2D::8339670968424023024::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/shots/::1701457833
+shot-1.png::CompressedTexture2D::5520661222636259005::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Sprites/WereWolf/::1701457832
+::res://Terrible Knight Files/Sprites/WereWolf/fall/::1701457832
+werewolf-fall1.png::CompressedTexture2D::4096099074356582584::1701457832::1701457832::1::::<><>::
+werewolf-fall2.png::CompressedTexture2D::7515174043560009711::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/WereWolf/Idle/::1701457832
+werewolf-idle1.png::CompressedTexture2D::5361282999814994388::1701457832::1701457832::1::::<><>::
+werewolf-idle2.png::CompressedTexture2D::9028362279840629036::1701457832::1701457832::1::::<><>::
+werewolf-idle3.png::CompressedTexture2D::4672760067601253240::1701457832::1701457832::1::::<><>::
+werewolf-idle4.png::CompressedTexture2D::5971401997414748721::1701457832::1701457832::1::::<><>::
+werewolf-idle5.png::CompressedTexture2D::7427561295651872626::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/WereWolf/jump/::1701457832
+werewolf-jump1.png::CompressedTexture2D::3649136868286160023::1701457832::1701457832::1::::<><>::
+werewolf-jump2.png::CompressedTexture2D::3869313635000300470::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Sprites/WereWolf/run/::1701457832
+werewolf-run1.png::CompressedTexture2D::7125064459747847354::1701457832::1701457832::1::::<><>::
+werewolf-run2.png::CompressedTexture2D::4116143705209813586::1701457832::1701457832::1::::<><>::
+werewolf-run3.png::CompressedTexture2D::1889280928689673986::1701457832::1701457832::1::::<><>::
+werewolf-run4.png::CompressedTexture2D::2992743033630007536::1701457832::1701457832::1::::<><>::
+werewolf-run5.png::CompressedTexture2D::7056205372482935344::1701457832::1701457832::1::::<><>::
+werewolf-run6.png::CompressedTexture2D::3765396121557173004::1701457832::1701457832::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/::1701457833
+::res://Terrible Knight Files/Spritesheets/crow/::1701457833
+crow-all.png::CompressedTexture2D::1125625543183373133::1701457833::1701457833::1::::<><>::
+crow-fly.png::CompressedTexture2D::8185591981880299406::1701457833::1701457833::1::::<><>::
+crow-front.png::CompressedTexture2D::6989447288420398511::1701457833::1701457833::1::::<><>::
+crow-idle.png::CompressedTexture2D::8058759654878094475::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/death-lamp/::1701457833
+death-lamp-rise.png::CompressedTexture2D::896212039383543725::1701457833::1701457833::1::::<><>::
+death-lamp-walk.png::CompressedTexture2D::8819739298846511224::1701457833::1701457833::1::::<><>::
+death-walk.png::CompressedTexture2D::2542398663746872159::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/Flying-eye-demon/::1701457833
+flying-eye-demon.png::CompressedTexture2D::7648417832897474678::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/meerman/::1701457833
+meerman.png::CompressedTexture2D::4517184907601345629::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/mutant-toad/::1701457833
+mutant-toad-attack.png::CompressedTexture2D::6893305043943505192::1701457833::1701457833::1::::<><>::
+mutant-toad-idle.png::CompressedTexture2D::8585999316314301720::1701457833::1701457833::1::::<><>::
+mutant-toad-jump.png::CompressedTexture2D::979525010514653893::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/Ogre/::1701457833
+ogre-all.png::CompressedTexture2D::7173068641001886209::1701457833::1701457833::1::::<><>::
+ogre-attack.png::CompressedTexture2D::8121325426800962640::1701457833::1701457833::1::::<><>::
+ogre-idle-unarmed.png::CompressedTexture2D::7086586094800993383::1701457833::1701457833::1::::<><>::
+ogre-idle.png::CompressedTexture2D::1119484102706368990::1701457833::1701457833::1::::<><>::
+ogre-walk-unarmed.png::CompressedTexture2D::3602714594243944080::1701457833::1701457833::1::::<><>::
+ogre-walk.png::CompressedTexture2D::770016704604984954::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/player/::1701457833
+attack-crouch.png::CompressedTexture2D::7361396756166038469::1701457833::1701457833::1::::<><>::
+attack-side.png::CompressedTexture2D::359500736265035429::1701457833::1701457833::1::::<><>::
+attack-up.png::CompressedTexture2D::1082868296084033800::1701457833::1701457833::1::::<><>::
+crouch.png::CompressedTexture2D::328432407803914155::1701457833::1701457833::1::::<><>::
+idle.png::CompressedTexture2D::4470450929015929805::1701457833::1701457833::1::::<><>::
+jump-attack.png::CompressedTexture2D::3270124197444726985::1701457833::1701457833::1::::<><>::
+jump.png::CompressedTexture2D::3597390447667955219::1701457833::1701457833::1::::<><>::
+player-all.png::CompressedTexture2D::245473805195944701::1701457833::1701457833::1::::<><>::
+run.png::CompressedTexture2D::2091469487433230625::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/splash/::1701457833
+splash.png::CompressedTexture2D::7222509315298154363::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/Spritesheets/WereWolf/::1701457833
+werewolf-fall.png::CompressedTexture2D::6539684861956853037::1701457833::1701457833::1::::<><>::
+werewolf-idle.png::CompressedTexture2D::6240784952033641466::1701457833::1701457833::1::::<><>::
+werewolf-jump.png::CompressedTexture2D::1322395269015786986::1701457833::1701457833::1::::<><>::
+werewolf-run.png::CompressedTexture2D::1841560348021681371::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/VFX/::1701457833
+enemy-death.png::CompressedTexture2D::7791749412921270104::1701457833::1701457833::1::::<><>::
+hit.png::CompressedTexture2D::4811934220403504328::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/VFX/ase/::1701457833
+::res://Terrible Knight Files/VFX/Previews/::1701457833
+::res://Terrible Knight Files/VFX/Sprites/::1701457833
+::res://Terrible Knight Files/VFX/Sprites/EnemyDeath/::1701457833
+enemy-death1.png::CompressedTexture2D::5534768787384017942::1701457833::1701457833::1::::<><>::
+enemy-death2.png::CompressedTexture2D::492858991193310114::1701457833::1701457833::1::::<><>::
+enemy-death3.png::CompressedTexture2D::3305939582740078047::1701457833::1701457833::1::::<><>::
+enemy-death4.png::CompressedTexture2D::3894802976287158663::1701457833::1701457833::1::::<><>::
+enemy-death5.png::CompressedTexture2D::2224628092747111566::1701457833::1701457833::1::::<><>::
+enemy-death6.png::CompressedTexture2D::927529797983397041::1701457833::1701457833::1::::<><>::
+enemy-death7.png::CompressedTexture2D::2387135084401182534::1701457833::1701457833::1::::<><>::
+enemy-death8.png::CompressedTexture2D::1739186891922129535::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/VFX/Sprites/Hit/::1701457833
+hit1.png::CompressedTexture2D::883676353216542871::1701457833::1701457833::1::::<><>::
+hit2.png::CompressedTexture2D::1983937994431277594::1701457833::1701457833::1::::<><>::
+hit3.png::CompressedTexture2D::1604932716582489595::1701457833::1701457833::1::::<><>::
+::res://Terrible Knight Files/VFX/SpriteSheets/::1701457833
+enemy-death.png::CompressedTexture2D::1008070511799677144::1701457833::1701457833::1::::<><>::
+hit.png::CompressedTexture2D::1840123758242855363::1701457833::1701457833::1::::<><>::

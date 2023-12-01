@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://ba01yglettn7h"]
 
-[ext_resource type="Script" path="res://world.gd" id="1_cqu38"]
+[ext_resource type="Script" path="res://Level2.gd" id="1_60mw0"]
 [ext_resource type="Texture2D" uid="uid://b44rjig3lmnx5" path="res://gothicvania church/assets/environment/tileset.png" id="2_46y8c"]
 [ext_resource type="PackedScene" uid="uid://cwao048aqm1e6" path="res://background.tscn" id="3_egms2"]
 [ext_resource type="PackedScene" uid="uid://cedmdk5u06xmy" path="res://monk.tscn" id="4_d5nh7"]
@@ -400,8 +400,8 @@ sources/0 = SubResource("TileSetAtlasSource_5icvy")
 radius = 32.0
 height = 98.0
 
-[node name="World" type="Node2D"]
-script = ExtResource("1_cqu38")
+[node name="Level2" type="Node2D"]
+script = ExtResource("1_60mw0")
 metadata/_edit_vertical_guides_ = []
 
 [node name="Scenario" type="Node2D" parent="."]
@@ -516,10 +516,11 @@ position = Vector2(942, -2935)
 [node name="Soul24" parent="Souls" instance=ExtResource("7_03aej")]
 position = Vector2(796, -3129)
 
-[node name="ToPhase2" type="Area2D" parent="."]
+[node name="ToPhase3" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ToPhase2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ToPhase3"]
 position = Vector2(592, -3246)
 shape = SubResource("CapsuleShape2D_p873e")
 
-[connection signal="body_entered" from="ToPhase2" to="." method="_on_to_phase_2_body_entered" flags=18]
+[connection signal="body_entered" from="ToPhase3" to="." method="_on_to_phase_2_body_entered" flags=18]
+[connection signal="body_entered" from="ToPhase3" to="." method="_on_to_phase_3_body_entered"]
