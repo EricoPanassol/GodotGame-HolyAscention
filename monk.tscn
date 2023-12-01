@@ -238,7 +238,7 @@ collision_layer = 3
 collision_mask = 3
 
 [node name="KickHitBox" type="CollisionShape2D" parent="AnimatedSprite2D/KickHit"]
-position = Vector2(77.4063, 47.8572)
+position = Vector2(6.9166, 50.3572)
 shape = SubResource("RectangleShape2D_whbmd")
 disabled = true
 

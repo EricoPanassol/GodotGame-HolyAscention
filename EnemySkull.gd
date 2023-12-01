@@ -7,6 +7,9 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity");
 var player;
 var chase = false;
 var onDeath = false;
+
+var can_flip = true
+
 @onready var skull = get_node("AnimatedSprite2DSkull");
 
 func _physics_process(delta):
@@ -56,7 +59,12 @@ func _physics_process(delta):
 			velocity.x = SPEED;
 			velocity.y = 0; 
 
-	#print("Chase: ", chase);
+	if is_on_wall():
+		velocity.x *= -1
+		skull.flip_h = !skull.flip_h;
+		print('EnemySkull.gd - linha 62-65, me arruma enzo')
+
+
 	move_and_slide();
 
 

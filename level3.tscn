@@ -1,10 +1,12 @@
-[gd_scene load_steps=9 format=3 uid="uid://xqpsy07ce42w"]
+[gd_scene load_steps=11 format=3 uid="uid://xqpsy07ce42w"]
 
 [ext_resource type="Script" path="res://level3.gd" id="1_r4pcv"]
 [ext_resource type="Texture2D" uid="uid://b44rjig3lmnx5" path="res://gothicvania church/assets/environment/tileset.png" id="2_hympm"]
 [ext_resource type="PackedScene" uid="uid://cwao048aqm1e6" path="res://background.tscn" id="3_4yj78"]
 [ext_resource type="PackedScene" uid="uid://cedmdk5u06xmy" path="res://monk.tscn" id="4_8dvac"]
+[ext_resource type="PackedScene" uid="uid://deayurbal51w2" path="res://EnemySkull.tscn" id="5_705vt"]
 [ext_resource type="PackedScene" uid="uid://t332wq1hexbb" path="res://GUI/hearts_container.tscn" id="6_16f7y"]
+[ext_resource type="PackedScene" uid="uid://c7e3ekxdxnod1" path="res://soul.tscn" id="7_la6dn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5icvy"]
 texture = ExtResource("2_hympm")
@@ -418,6 +420,57 @@ position = Vector2(558, 500)
 
 [node name="Mobs" type="Node2D" parent="."]
 
+[node name="EnemySkull" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(825, 354)
+
+[node name="EnemySkull2" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(328, 117)
+
+[node name="EnemySkull3" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(969, -361)
+
+[node name="EnemySkull4" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(369, -599)
+
+[node name="EnemySkull5" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(945, -1480)
+
+[node name="EnemySkull6" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(382, -1984)
+
+[node name="EnemySkull7" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(884, -2491)
+
+[node name="EnemySkull8" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(593, -3028)
+
+[node name="EnemySkull9" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(545, -3679)
+
+[node name="EnemySkull10" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(499, -3936)
+
+[node name="EnemySkull11" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(489, -4032)
+
+[node name="EnemySkull12" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(489, -4133)
+
+[node name="EnemySkull13" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(489, -4227)
+
+[node name="EnemySkull14" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(486, -4336)
+
+[node name="EnemySkull15" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(486, -4435)
+
+[node name="EnemySkull16" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(483, -4536)
+
+[node name="EnemySkull17" parent="Mobs" instance=ExtResource("5_705vt")]
+position = Vector2(475, -4635)
+
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="HeartsContainer" parent="CanvasLayer" instance=ExtResource("6_16f7y")]
@@ -426,6 +479,96 @@ offset_right = 132.0
 metadata/_edit_use_anchors_ = true
 
 [node name="Souls" type="Node2D" parent="."]
+
+[node name="Soul" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(436, 404)
+
+[node name="Soul2" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(645, 200)
+
+[node name="Soul3" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(861, 11)
+
+[node name="Soul4" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(975, -224)
+
+[node name="Soul5" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(495, -235)
+
+[node name="Soul6" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(500, -520)
+
+[node name="Soul7" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(223, -815)
+
+[node name="Soul8" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(221, -1107)
+
+[node name="Soul9" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(731, -963)
+
+[node name="Soul11" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(981, -1157)
+
+[node name="Soul12" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(980, -1361)
+
+[node name="Soul13" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(847, -1596)
+
+[node name="Soul14" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(851, -1869)
+
+[node name="Soul15" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(578, -1875)
+
+[node name="Soul16" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(219, -1878)
+
+[node name="Soul17" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(216, -2124)
+
+[node name="Soul10" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(453, -2251)
+
+[node name="Soul18" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(444, -2522)
+
+[node name="Soul19" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(443, -2801)
+
+[node name="Soul20" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(674, -3023)
+
+[node name="Soul21" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(447, -3271)
+
+[node name="Soul22" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(210, -3529)
+
+[node name="Soul23" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(437, -3790)
+
+[node name="Soul24" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(215, -4024)
+
+[node name="Soul25" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(209, -4152)
+
+[node name="Soul26" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(212, -4287)
+
+[node name="Soul27" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(206, -4437)
+
+[node name="Soul28" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(203, -4578)
+
+[node name="Soul29" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(206, -4734)
+
+[node name="Soul30" parent="Souls" instance=ExtResource("7_la6dn")]
+position = Vector2(211, -4869)
 
 [node name="ToEndGame" type="Area2D" parent="."]
 

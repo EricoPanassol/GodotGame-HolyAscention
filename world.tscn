@@ -416,7 +416,7 @@ layer_0/tile_data = PackedInt32Array(1769472, 1310720, 13, 1835008, 1310720, 12,
 [node name="Player" type="Node2D" parent="."]
 
 [node name="Monk" parent="Player" instance=ExtResource("5_cinbo")]
-position = Vector2(584, 505)
+position = Vector2(299, 504)
 
 [node name="Mobs" type="Node2D" parent="."]
 
@@ -427,7 +427,7 @@ position = Vector2(313, -955)
 position = Vector2(924, -352)
 
 [node name="EnemySkull" parent="Mobs" instance=ExtResource("4_je2fn")]
-position = Vector2(585, 325)
+position = Vector2(924, 380)
 
 [node name="EnemySkull4" parent="Mobs" instance=ExtResource("4_je2fn")]
 position = Vector2(247, -207)

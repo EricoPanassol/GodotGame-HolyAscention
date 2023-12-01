@@ -7,3 +7,6 @@ res://main.gd
 res://world.tscn
 res://ToEndGame.gd
 res://level3.gd
+res://Player/monk.gd
+res://monk.tscn
+res://EnemySkull.gd
