@@ -11,6 +11,7 @@ offset_top = 214.0
 offset_right = 662.0
 offset_bottom = 302.0
 text = "Play"
+metadata/_edit_use_anchors_ = true
 
 [node name="Quit" type="Button" parent="."]
 offset_left = 483.0
@@ -19,6 +20,7 @@ offset_right = 663.0
 offset_bottom = 455.0
 text = "Quit
 "
+metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

@@ -11,3 +11,7 @@ res://level3.tscn
 res://monk.tscn
 res://EnemySkull.tscn
 res://soul.gd
+res://win.tscn
+res://main.gd
+res://main.tscn
+res://gameover.tscn
