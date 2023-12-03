@@ -7,6 +7,8 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity");
 var player;
 var chase = false;
 var onDeath = false;
+var wallHited = false;
+var walkSide = false;
 
 var can_flip = true
 
@@ -54,17 +56,20 @@ func _physics_process(delta):
 	else:
 		# permanece andando para o último lado quando estava perseguindo o player
 		if !onDeath:
-			skull.flip_h = true;
 			skull.play("flying");
-			velocity.x = SPEED;
-			velocity.y = 0; 
-
-	if is_on_wall():
-		velocity.x *= -1
-		skull.flip_h = !skull.flip_h;
-		print('EnemySkull.gd - linha 62-65, me arruma enzo')
-
-
+			velocity.y = 0; 			
+			if(!walkSide):
+				velocity.x = 1 * SPEED;
+			else:
+				velocity.x = -1 * SPEED;
+			
+	if(self.position.x < 206):
+		walkSide = false;
+		skull.flip_h = true;
+	elif(self.position.x > 980):
+		walkSide = true;
+		skull.flip_h = false;
+		
 	move_and_slide();
 
 

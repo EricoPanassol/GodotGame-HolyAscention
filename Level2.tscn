@@ -522,5 +522,5 @@ position = Vector2(796, -3129)
 position = Vector2(592, -3246)
 shape = SubResource("CapsuleShape2D_p873e")
 
-[connection signal="body_entered" from="ToPhase3" to="." method="_on_to_phase_2_body_entered" flags=18]
 [connection signal="body_entered" from="ToPhase3" to="." method="_on_to_phase_3_body_entered"]
+[connection signal="body_entered" from="ToPhase3" to="." method="_on_to_phase_2_body_entered" flags=18]

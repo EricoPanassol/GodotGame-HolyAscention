@@ -1,12 +1,7 @@
-res://Level2.gd
-res://GUI/hearts_container.gd
-res://Level2.tscn
-res://GUI/heart_gui.gd
-res://level3.tscn
-res://main.gd
 res://world.tscn
-res://ToEndGame.gd
-res://level3.gd
-res://Player/monk.gd
+res://GUI/heart_gui.gd
+res://Level2.tscn
+res://level3.tscn
 res://monk.tscn
+res://EnemySkull.tscn
 res://EnemySkull.gd
