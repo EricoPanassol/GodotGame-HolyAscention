@@ -1,7 +1,13 @@
-res://world.tscn
+res://Level2.gd
+res://level3.gd
+res://Player/monk.gd
+res://EnemySkull.gd
+res://world.gd
 res://GUI/heart_gui.gd
+res://portal.tscn
+res://world.tscn
 res://Level2.tscn
 res://level3.tscn
 res://monk.tscn
 res://EnemySkull.tscn
-res://EnemySkull.gd
+res://soul.gd
