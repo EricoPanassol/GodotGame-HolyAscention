@@ -1,3 +1,3 @@
 # GodotGame-HolyAscention
 
-portal link: https://grappe.itch.io/pixelportal
+Link do repositório: https://github.com/EricoPanassol/GodotGame-HolyAscention
